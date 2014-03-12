@@ -10,5 +10,5 @@ class BusinessPartner < ActiveRecord::Base
   #添加资料验证
   validates_presence_of :name
   validates_presence_of :companyCode
-  validates_numericality_of :companyCode, :only_integer => true , :greater_than => 1
+  validates_numericality_of :companyCode, :only_integer => true ,:equal_to => 1#companyCode的含义是为集团用户的接口，这里稍作简化。只认为有一家主公司
 end

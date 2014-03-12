@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  condType: 
+  effFrom: 2014-03-12
+  repayPercent: 9.99
+  comditionAmount: 1.5
+  currency: 1
+  IS: 1
+  PF: 1
+  Frg: 1
+  dueOn: 1
+  ED: 1
+  calcDate: 2014-03-12
+  MC: 1
+  description: MyString
+  condition_id: 1
+
+two:
+  condType: 
+  effFrom: 2014-03-12
+  repayPercent: 9.99
+  comditionAmount: 1.5
+  currency: 1
+  IS: 1
+  PF: 1
+  Frg: 1
+  dueOn: 1
+  ED: 1
+  calcDate: 2014-03-12
+  MC: 1
+  description: MyString
+  condition_id: 1

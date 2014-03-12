@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140311042224) do
+ActiveRecord::Schema.define(:version => 20140312082212) do
 
   create_table "business_partners", :force => true do |t|
     t.string   "name"
@@ -43,6 +43,38 @@ ActiveRecord::Schema.define(:version => 20140311042224) do
   add_index "communication_infos", ["business_partner_id"], :name => "index_communication_infos_on_BusinessPartner_id"
   add_index "communication_infos", ["business_partner_id"], :name => "index_communication_infos_on_business_partner_id"
 
+  create_table "condition_items", :force => true do |t|
+    t.integer  "condType"
+    t.date     "effFrom"
+    t.decimal  "repayPercent"
+    t.float    "conditionAmount"
+    t.integer  "currency"
+    t.integer  "IS"
+    t.integer  "PF"
+    t.integer  "Frg"
+    t.integer  "dueOn"
+    t.integer  "ED"
+    t.date     "calcDate"
+    t.integer  "MC"
+    t.string   "description"
+    t.integer  "condition_id"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
+
+  create_table "conditions", :force => true do |t|
+    t.integer  "commitCapital"
+    t.integer  "repaymentType"
+    t.decimal  "disbursementRate"
+    t.integer  "discountType"
+    t.date     "fixedFrom"
+    t.date     "fixedUntil"
+    t.date     "termStart"
+    t.date     "termEnd"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+  end
+
   create_table "indentify_infos", :force => true do |t|
     t.string   "indentify"
     t.integer  "legelForm"
@@ -53,6 +85,20 @@ ActiveRecord::Schema.define(:version => 20140311042224) do
 
   add_index "indentify_infos", ["business_partner_id"], :name => "index_indentify_infos_on_BusinessPartner_id"
   add_index "indentify_infos", ["business_partner_id"], :name => "index_indentify_infos_on_business_partner_id"
+
+  create_table "mortgage_loans", :force => true do |t|
+    t.integer  "loanType"
+    t.integer  "loanClass"
+    t.integer  "IPDcontrol"
+    t.integer  "disAcc"
+    t.integer  "FinProj"
+    t.integer  "interestCal"
+    t.integer  "contracCurrency"
+    t.integer  "term"
+    t.integer  "condition_id"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
 
   create_table "repayment_infos", :force => true do |t|
     t.integer  "bankID"

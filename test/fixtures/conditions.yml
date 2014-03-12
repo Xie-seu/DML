@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  commitCapital: 
+  repaymentType: 1
+  disbursementRate: 9.99
+  discountType: 1
+  discountType: 1
+  fixedForm: 2014-03-12
+  fixedUntil: 2014-03-12
+  termStart: 2014-03-12
+  termEnd: 2014-03-12
+
+two:
+  commitCapital: 
+  repaymentType: 1
+  disbursementRate: 9.99
+  discountType: 1
+  discountType: 1
+  fixedForm: 2014-03-12
+  fixedUntil: 2014-03-12
+  termStart: 2014-03-12
+  termEnd: 2014-03-12

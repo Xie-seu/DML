@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  loanType: 1
+  loanClass: 1
+  IPDcontrol: 1
+  disAcc: 1
+  FinProj: 1
+  interestCal: 1
+  contracCurrency: 1
+  term: 1
+
+two:
+  loanType: 1
+  loanClass: 1
+  IPDcontrol: 1
+  disAcc: 1
+  FinProj: 1
+  interestCal: 1
+  contracCurrency: 1
+  term: 1
