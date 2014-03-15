@@ -1,0 +1,80 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Serialid:</b>
+  <%= @contract.serialID %>
+</p>
+
+<p>
+  <b>Contractnumber:</b>
+  <%= @contract.contractNumber %>
+</p>
+
+<p>
+  <b>Term:</b>
+  <%= @contract.term %>
+</p>
+
+<p>
+  <b>Usepath:</b>
+  <%= @contract.usePath %>
+</p>
+
+<p>
+  <b>Amount:</b>
+  <%= @contract.amount %>
+</p>
+
+<p>
+  <b>Currency:</b>
+  <%= @contract.currency %>
+</p>
+
+<p>
+  <b>Browser:</b>
+  <%= @contract.browser %>
+</p>
+
+<p>
+  <b>Startdate:</b>
+  <%= @contract.startDate %>
+</p>
+
+<p>
+  <b>Enddate:</b>
+  <%= @contract.endDate %>
+</p>
+
+<p>
+  <b>Contractperiod:</b>
+  <%= @contract.contractPeriod %>
+</p>
+
+<p>
+  <b>Repaymenttype:</b>
+  <%= @contract.repaymentType %>
+</p>
+
+<p>
+  <b>Interest:</b>
+  <%= @contract.interest %>
+</p>
+
+<p>
+  <b>Defaulint:</b>
+  <%= @contract.defaulInt %>
+</p>
+
+<p>
+  <b>Credit:</b>
+  <%= @contract.credit %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @contract.status %>
+</p>
+
+
+<%= link_to 'Edit', edit_contract_path(@contract) %> |
+<%= link_to 'Back', contracts_path %>

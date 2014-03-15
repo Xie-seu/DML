@@ -4,7 +4,8 @@ class BusinessPartner < ActiveRecord::Base
   has_one :communication_info
   has_one :indentify_info
   has_many :collaterals
-
+  has_many :contract_business_partnerships
+  has_many :contracts, :through => :contract_business_partnerships
   #还需要添加contract和Application 2014-03-10 16:55
 
   #添加资料验证

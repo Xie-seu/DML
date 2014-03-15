@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  contract_id: 1
+  business_partner_id: 1
+
+two:
+  contract_id: 1
+  business_partner_id: 1

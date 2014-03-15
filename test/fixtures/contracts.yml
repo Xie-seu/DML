@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  serialID: 1
+  contractNumber: 1
+  term: 1
+  usePath: MyString
+  amount: 1.5
+  currency: 1
+  browser: 1
+  startDate: 2014-03-14
+  endDate: 2014-03-14
+  contractPeriod: 2014-03-14 09:36:47
+  repaymentType: 1
+  interest: 1.5
+  defaulInt: 1.5
+  credit: MyString
+  status: 1
+
+two:
+  serialID: 1
+  contractNumber: 1
+  term: 1
+  usePath: MyString
+  amount: 1.5
+  currency: 1
+  browser: 1
+  startDate: 2014-03-14
+  endDate: 2014-03-14
+  contractPeriod: 2014-03-14 09:36:47
+  repaymentType: 1
+  interest: 1.5
+  defaulInt: 1.5
+  credit: MyString
+  status: 1

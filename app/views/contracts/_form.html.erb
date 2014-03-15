@@ -1,0 +1,77 @@
+<%= form_for(@contract) do |f| %>
+  <% if @contract.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@contract.errors.count, "error") %> prohibited this contract from being saved:</h2>
+
+      <ul>
+      <% @contract.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :serialID %><br />
+    <%= f.number_field :serialID %>
+  </div>
+  <div class="field">
+    <%= f.label :contractNumber %><br />
+    <%= f.number_field :contractNumber %>
+  </div>
+  <div class="field">
+    <%= f.label :term %><br />
+    <%= f.number_field :term %>
+  </div>
+  <div class="field">
+    <%= f.label :usePath %><br />
+    <%= f.text_field :usePath %>
+  </div>
+  <div class="field">
+    <%= f.label :amount %><br />
+    <%= f.text_field :amount %>
+  </div>
+  <div class="field">
+    <%= f.label :currency %><br />
+    <%= f.number_field :currency %>
+  </div>
+  <div class="field">
+    <%= f.label :browser %><br />
+    <%= f.number_field :browser %>
+  </div>
+  <div class="field">
+    <%= f.label :startDate %><br />
+    <%= f.date_select :startDate %>
+  </div>
+  <div class="field">
+    <%= f.label :endDate %><br />
+    <%= f.date_select :endDate %>
+  </div>
+  <div class="field">
+    <%= f.label :contractPeriod %><br />
+    <%= f.time_select :contractPeriod %>
+  </div>
+  <div class="field">
+    <%= f.label :repaymentType %><br />
+    <%= f.number_field :repaymentType %>
+  </div>
+  <div class="field">
+    <%= f.label :interest %><br />
+    <%= f.text_field :interest %>
+  </div>
+  <div class="field">
+    <%= f.label :defaulInt %><br />
+    <%= f.text_field :defaulInt %>
+  </div>
+  <div class="field">
+    <%= f.label :credit %><br />
+    <%= f.text_field :credit %>
+  </div>
+  <div class="field">
+    <%= f.label :status %><br />
+    <%= f.number_field :status %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140312082212) do
+ActiveRecord::Schema.define(:version => 20140314015545) do
 
   create_table "business_partners", :force => true do |t|
     t.string   "name"
@@ -75,6 +75,33 @@ ActiveRecord::Schema.define(:version => 20140312082212) do
     t.datetime "updated_at",       :null => false
   end
 
+  create_table "contract_business_partnerships", :force => true do |t|
+    t.integer  "contract_id"
+    t.integer  "business_partner_id"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+  end
+
+  create_table "contracts", :force => true do |t|
+    t.integer  "serialID"
+    t.integer  "contractNumber"
+    t.integer  "term"
+    t.string   "usePath"
+    t.float    "amount"
+    t.integer  "currency"
+    t.integer  "browser"
+    t.date     "startDate"
+    t.date     "endDate"
+    t.time     "contractPeriod"
+    t.integer  "repaymentType"
+    t.float    "interest"
+    t.float    "defaulInt"
+    t.string   "credit"
+    t.integer  "status"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+  end
+
   create_table "indentify_infos", :force => true do |t|
     t.string   "indentify"
     t.integer  "legelForm"
@@ -98,6 +125,7 @@ ActiveRecord::Schema.define(:version => 20140312082212) do
     t.integer  "condition_id"
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
+    t.integer  "contract_id"
   end
 
   create_table "repayment_infos", :force => true do |t|

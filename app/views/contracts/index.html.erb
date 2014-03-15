@@ -1,0 +1,51 @@
+<h1>Listing contracts</h1>
+
+<table>
+  <tr>
+    <th>Serialid</th>
+    <th>Contractnumber</th>
+    <th>Term</th>
+    <th>Usepath</th>
+    <th>Amount</th>
+    <th>Currency</th>
+    <th>Browser</th>
+    <th>Startdate</th>
+    <th>Enddate</th>
+    <th>Contractperiod</th>
+    <th>Repaymenttype</th>
+    <th>Interest</th>
+    <th>Defaulint</th>
+    <th>Credit</th>
+    <th>Status</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @contracts.each do |contract| %>
+  <tr>
+    <td><%= contract.serialID %></td>
+    <td><%= contract.contractNumber %></td>
+    <td><%= contract.term %></td>
+    <td><%= contract.usePath %></td>
+    <td><%= contract.amount %></td>
+    <td><%= contract.currency %></td>
+    <td><%= contract.browser %></td>
+    <td><%= contract.startDate %></td>
+    <td><%= contract.endDate %></td>
+    <td><%= contract.contractPeriod %></td>
+    <td><%= contract.repaymentType %></td>
+    <td><%= contract.interest %></td>
+    <td><%= contract.defaulInt %></td>
+    <td><%= contract.credit %></td>
+    <td><%= contract.status %></td>
+    <td><%= link_to 'Show', contract %></td>
+    <td><%= link_to 'Edit', edit_contract_path(contract) %></td>
+    <td><%= link_to 'Destroy', contract, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Contract', new_contract_path %>
