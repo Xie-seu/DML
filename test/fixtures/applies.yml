@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  proposer: 1
+  loanType: 1
+  term: 1
+  usePath: MyString
+  amount: 1.5
+  currency: 1
+  startDate: 2014-03-15
+  endDate: 2014-03-15
+  repaymentType: 1
+  processor: MyString
+
+two:
+  proposer: 1
+  loanType: 1
+  term: 1
+  usePath: MyString
+  amount: 1.5
+  currency: 1
+  startDate: 2014-03-15
+  endDate: 2014-03-15
+  repaymentType: 1
+  processor: MyString

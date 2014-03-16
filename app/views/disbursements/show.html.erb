@@ -1,0 +1,55 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Flowtype:</b>
+  <%= @disbursement.flowType %>
+</p>
+
+<p>
+  <b>Text:</b>
+  <%= @disbursement.text %>
+</p>
+
+<p>
+  <b>Repaymenttype:</b>
+  <%= @disbursement.repaymentType %>
+</p>
+
+<p>
+  <b>Postingcontrol:</b>
+  <%= @disbursement.postingControl %>
+</p>
+
+<p>
+  <b>Paymentdate:</b>
+  <%= @disbursement.paymentDate %>
+</p>
+
+<p>
+  <b>Currentpayment:</b>
+  <%= @disbursement.currentPayment %>
+</p>
+
+<p>
+  <b>Nominalpayment:</b>
+  <%= @disbursement.nominalPayment %>
+</p>
+
+<p>
+  <b>Disbursementrate:</b>
+  <%= @disbursement.disbursementRate %>
+</p>
+
+<p>
+  <b>Disbursementint:</b>
+  <%= @disbursement.disbursementInt %>
+</p>
+
+<p>
+  <b>Grosspayamount:</b>
+  <%= @disbursement.grossPayAmount %>
+</p>
+
+
+<%= link_to 'Edit', edit_disbursement_path(@disbursement) %> |
+<%= link_to 'Back', disbursements_path %>

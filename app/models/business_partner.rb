@@ -1,11 +1,13 @@
 class BusinessPartner < ActiveRecord::Base
-  attr_accessible :name, :companyCode
-  has_one :repayment_info
-  has_one :communication_info
-  has_one :indentify_info
-  has_many :collaterals
-  has_many :contract_business_partnerships
+  attr_accessible :name, :companyCode, :apply_id
+  has_one :repayment_info, :dependent =>  :destroy
+  has_one :communication_info , :dependent =>  :destroy
+  has_one :indentify_info, :dependent =>  :destroy
+  has_many :collaterals, :dependent =>  :destroy
+  has_many :contract_business_partnerships, :dependent =>  :destroy
   has_many :contracts, :through => :contract_business_partnerships
+
+  has_many :applies
   #还需要添加contract和Application 2014-03-10 16:55
 
   #添加资料验证

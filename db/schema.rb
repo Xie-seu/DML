@@ -11,13 +11,38 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140314015545) do
+ActiveRecord::Schema.define(:version => 20140316033230) do
+
+  create_table "applies", :force => true do |t|
+    t.integer  "proposer"
+    t.integer  "loanType"
+    t.integer  "term"
+    t.string   "usePath"
+    t.float    "amount"
+    t.integer  "currency"
+    t.date     "startDate"
+    t.date     "endDate"
+    t.integer  "repaymentType"
+    t.string   "processor"
+    t.integer  "business_partner_id"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+  end
 
   create_table "business_partners", :force => true do |t|
     t.string   "name"
     t.integer  "companyCode"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+    t.integer  "apply_id"
+  end
+
+  create_table "cash_flows", :force => true do |t|
+    t.integer  "flowType"
+    t.integer  "currency"
+    t.float    "amount"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "collaterals", :force => true do |t|
@@ -100,6 +125,21 @@ ActiveRecord::Schema.define(:version => 20140314015545) do
     t.integer  "status"
     t.datetime "created_at",     :null => false
     t.datetime "updated_at",     :null => false
+  end
+
+  create_table "disbursements", :force => true do |t|
+    t.integer  "flowType"
+    t.text     "text"
+    t.integer  "repaymentType"
+    t.integer  "postingControl"
+    t.date     "paymentDate"
+    t.float    "currentPayment"
+    t.integer  "nominalPayment"
+    t.decimal  "disbursementRate"
+    t.float    "disbursementInt"
+    t.float    "grossPayAmount"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
   end
 
   create_table "indentify_infos", :force => true do |t|

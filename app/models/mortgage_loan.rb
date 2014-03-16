@@ -1,6 +1,6 @@
 class MortgageLoan < ActiveRecord::Base
   attr_accessible :FinProj, :IPDcontrol, :contracCurrency, :disAcc, :interestCal, :loanClass, :loanType, :term
-  has_one :condition
+  has_one :condition, :dependent =>  :destroy
   belongs_to :contract
   validates_associated :condition
 

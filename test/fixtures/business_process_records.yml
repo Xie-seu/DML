@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  serialNum: 1
+  operationType: 1
+  processor: MyString
+  keyWord: MyString
+
+two:
+  serialNum: 1
+  operationType: 1
+  processor: MyString
+  keyWord: MyString

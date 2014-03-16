@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  flowType: 1
+  text: MyText
+  repaymentType: 1
+  postingControl: 1
+  paymentDate: 2014-03-16
+  currentPayment: 1.5
+  nominalPayment: 1
+  disbursementRate: 9.99
+  disbursementInt: 1.5
+  grossPayAmount: 1.5
+
+two:
+  flowType: 1
+  text: MyText
+  repaymentType: 1
+  postingControl: 1
+  paymentDate: 2014-03-16
+  currentPayment: 1.5
+  nominalPayment: 1
+  disbursementRate: 9.99
+  disbursementInt: 1.5
+  grossPayAmount: 1.5
