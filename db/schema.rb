@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140316033230) do
+ActiveRecord::Schema.define(:version => 20140316033620) do
 
   create_table "applies", :force => true do |t|
     t.integer  "proposer"
@@ -35,6 +35,15 @@ ActiveRecord::Schema.define(:version => 20140316033230) do
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
     t.integer  "apply_id"
+  end
+
+  create_table "business_process_records", :force => true do |t|
+    t.integer  "serialNum"
+    t.integer  "operationType"
+    t.string   "processor"
+    t.string   "keyWord"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
   end
 
   create_table "cash_flows", :force => true do |t|

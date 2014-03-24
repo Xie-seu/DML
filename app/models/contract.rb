@@ -9,5 +9,9 @@ class Contract < ActiveRecord::Base
 
   validates_numericality_of :amount, :browser, :contractNumber, :currency, :defaulInt, :interest, :repaymentType, :status, :term
 
+  scope :recent_three_days, where(["created_at > ? ", Time.now - 3.days ])
+  def self.recent(t=Time.now)
+    where(["created_at > ? ", t ])
+  end
 
 end

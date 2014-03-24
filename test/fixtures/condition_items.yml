@@ -4,7 +4,7 @@ one:
   condType: 
   effFrom: 2014-03-12
   repayPercent: 9.99
-  comditionAmount: 1.5
+  conditionAmount: 1.5
   currency: 1
   IS: 1
   PF: 1
@@ -20,7 +20,7 @@ two:
   condType: 
   effFrom: 2014-03-12
   repayPercent: 9.99
-  comditionAmount: 1.5
+  conditionAmount: 1.5
   currency: 1
   IS: 1
   PF: 1
