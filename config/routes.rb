@@ -1,7 +1,6 @@
 DML::Application.routes.draw do
   resources :disbursements
-
-
+  resources :applies
   resources :contracts
   root :to =>  'contracts#index'
 

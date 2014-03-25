@@ -1,0 +1,34 @@
+<h1>Apply</h1>
+<table border="1">
+  <tr>
+    <td>贷款总量</td>
+    <td>贷款币种</td>
+    <td>贷款类型</td>
+    <td>还款类型</td>
+    <td>周期</td>
+    <td>用途</td>
+    <td>开始时间</td>
+    <td>结束时间</td>
+    <td>贷款人</td><!-- proposer => businessPartnerID -->
+    <td>经办人</td>
+
+  </tr>
+  <% @applies.each do |apply| %>
+  <tr>
+    <td><%= apply.amount %></td>
+    <td><%= apply.currency %></td>
+    <td><%= apply.loanType %></td>
+    <td><%= apply.repaymentType %></td>
+    <td><%= apply.term %></td>
+    <td><%= apply.usePath %></td>
+    <td><%= apply.startDate %></td>
+    <td><%= apply.endDate %></td>
+    <td><%= apply.business_partner_id %></td><!-- 此处当有更多编程-->
+    <td><%= apply.processor %></td>
+    <td class="col-lg-1"><%= link_to "详细", apply %></td>
+    <td class="col-lg-1"><%= link_to '修改', edit_apply_path(apply) %></td>
+    <td class="col-lg-1"><%= link_to "删除", apply, method: :delete, data: { confirm: "你确定删除么"} %></td>
+  </tr>
+  <% end %>
+</table>
+<tr><%= link_to "新建合同", new_apply_path %></tr>

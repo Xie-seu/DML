@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+<h1>合同信息</h1>
+<table >
+  <tr>
+    <td>贷款总量</td>
+    <td>贷款币种</td>
+    <td>贷款类型</td>
+    <td>还款类型</td>
+    <td>周期</td>
+    <td>用途</td>
+    <td>开始时间</td>
+    <td>结束时间</td>
+    <td>贷款人</td>
+    <td>经办人</td>
+  </tr>
+      <tr>
+        <td><%= @apply.amount %></td>
+        <td><%= @apply.currency %></td>
+        <td><%= @apply.loanType %></td>
+        <td><%= @apply.repaymentType %></td>
+        <td><%= @apply.term %></td>
+        <td><%= @apply.usePath %></td>
+        <td><%= @apply.startDate %></td>
+        <td><%= @apply.endDate %></td>
+        <td><%= @apply.business_partner_id %></td>
+        <td><%= @apply.processor %></td>
+
+</table>
+
+<h2>关于合同的更多信息</h2>
+
+
+
+<%= link_to '修改', edit_apply_path(@apply) %> |
+<%= link_to '回到上一页', applies_path %>

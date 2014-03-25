@@ -6,7 +6,6 @@ class BusinessPartner < ActiveRecord::Base
   has_many :collaterals, :dependent =>  :destroy
   has_many :contract_business_partnerships, :dependent =>  :destroy
   has_many :contracts, :through => :contract_business_partnerships
-
   has_many :applies
   #还需要添加contract和Application 2014-03-10 16:55
 
