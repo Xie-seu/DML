@@ -1,0 +1,63 @@
+<% @business_partner.repayment_info == nil ? @business_partner.build_repayment_info : ""%>
+<% @business_partner.indentify_info == nil ? @business_partner.build_indentify_info : ""%>
+<% @business_partner.communication_info == nil ? @business_partner.build_communication_info : "" %>
+<% @business_partner.collaterals.build%>
+
+<%= form_for(@business_partner) do |f| %>
+    <% if @business_partner.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@business_partner.errors.count, "error") %> prohibited this business_partner from being saved:</h2>
+          <ul>
+            <% @business_partner.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+    <div class="field">
+      <%= f.label "公司代码" %>
+      <%= f.number_field :companyCode %>
+    </div>
+    <div class="field">
+      <%= f.label " 名称" %>
+      <%= f.text_field :name %>
+    </div>
+    <!--RepaymentInfo create -->
+    <h4><b>支付信息</b></h4>
+   <p> <%= f.fields_for :repayment_info do |builder| %>
+        <tr>
+          <td><%= builder.label :bankAcct %></td>
+          <td> <%= builder.number_field :bankAcct%><br/></td>
+          <td> <%= builder.label :bankID %></td>
+          <td> <%= builder.number_field :bankID%><br/></td>
+          <td> <%= builder.label :collection %></td>
+          <td> <%= builder.check_box :collection%><br/></td>
+        </tr>
+        <% end %></p>
+    <p><b>通信信息</b></p>
+    <p> <%= f.fields_for :communication_info do |builder| %>
+          <tr>
+            <td><%= builder.label :mobile %></td>
+            <td> <%= builder.number_field :mobile%><br/></td>
+            <td><%= builder.label :address %></td>
+            <td> <%= builder.text_field :address%><br/></td>
+          </tr>
+      <% end %></p>
+    <p><b>验证信息</b><br>
+      <%= f.fields_for :indentify_info do |builder| %>
+          <tr>
+            <td><%= builder.label :legelForm %></td>
+            <td> <%= builder.number_field :legelForm%><br/></td>
+            <td><%= builder.label :indentify %></td>
+            <td> <%= builder.number_field :indentify%><br/></td>
+          </tr>
+      <% end %>
+    </p>
+    <p><b>抵押品</b>
+      <%= render :partial => "business_partners/edit_collateral",
+      :locals => {:form => f }%>
+    </p>
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+<% end %>

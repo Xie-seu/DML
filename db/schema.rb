@@ -11,10 +11,9 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140316033620) do
+ActiveRecord::Schema.define(:version => 20140331085710) do
 
   create_table "applies", :force => true do |t|
-    t.integer  "proposer"
     t.integer  "loanType"
     t.integer  "term"
     t.string   "usePath"
@@ -107,6 +106,7 @@ ActiveRecord::Schema.define(:version => 20140316033620) do
     t.date     "termEnd"
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
+    t.integer  "contract_id"
   end
 
   create_table "contract_business_partnerships", :force => true do |t|

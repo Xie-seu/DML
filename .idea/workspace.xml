@@ -2,15 +2,352 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="437c2692-88e8-4b6a-9b9f-38cec62bf390" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/applies/_form.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/applies/edit.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/applies/new.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/applies/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/example-sites/bartop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/bird.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/images/blogger.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/ico/bootstrap-apple-114x114.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/ico/bootstrap-apple-57x57.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/ico/bootstrap-apple-72x72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/examples/bootstrap-example-fluid.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/examples/bootstrap-example-hero.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/examples/bootstrap-example-starter.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/bootstrap-mdo-sfmoma-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/bootstrap-mdo-sfmoma-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/bootstrap-mdo-sfmoma-03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/bootstrap.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/images/browser-statistics.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/browsers.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/images/digo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/example-diagram-01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/example-diagram-02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/example-diagram-03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/images/facebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/ico/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/example-sites/fleetio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/github-16px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/glyphicons/glyphicons_009_magic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/glyphicons/glyphicons_042_group.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/glyphicons/glyphicons_079_podium.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/glyphicons/glyphicons_082_roundabout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/glyphicons/glyphicons_155_show_thumbnails.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/glyphicons/glyphicons_163_iphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/glyphicons/glyphicons_214_resize_small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/glyphicons/glyphicons_266_book_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/images/gplus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/grid-18px-masked.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/images/gridbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/images/html5_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/icon-css3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/icon-github.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/icon-html5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/icon-twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/images/ipad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/images/javascript-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/js-thumb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/example-sites/jshint.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/images/json.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/example-sites/kippt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/less-logo-large.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/less-small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/images/linkedin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/images/mysql-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/mysql-thumb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/images/netvibes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/images/newsvine.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/images/noise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/images/orkut.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/php-thumb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/images/php.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/example-sites/railwayjs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/images/reditt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/responsive-illustrations.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/images/schema.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/shoes1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/shoes2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/images/small-hogan-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/images/stripes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/img/example-sites/totalwireframe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/images/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/images/zapface.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/spec/Changes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/js/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/spec/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/spec/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/spec/TESTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/business_partners/_communication_info.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/business_partners/_edit_collateral.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/business_partners/_edit_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/business_partners/_identify_info.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/business_partners/_new_form.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/business_partners/_repayment_info.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/accordion.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/wrappers/amd.js.mustache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/js/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/base-css.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/templates/pages/base-css.mustache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/bootstrap-2.0.3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-Basic-Tab-Based-Navigation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-Basic-pills-Based-Navigation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-Multicon-page-pagination.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-ScrollSpy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-Stacked-or-vertical-Pills-Based-Navigation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-Stacked-or-vertical-Tab-Based-Navigation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/bootstrap-alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/unit/bootstrap-alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-alerts-on-error-success-and-information.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-badge.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-basic-alerts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-basic-striped-and-animated-progress-bars.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-breadcrumbs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-button.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/bootstrap-button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/unit/bootstrap-button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-carousel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/bootstrap-carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/bootstrap-collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/unit/bootstrap-collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-collapsible-simplet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-collapsible.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-dropdown-with-navbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-dropdown-with-tabs-and-pills.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-dropdown-with-tabs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/bootstrap-dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/unit/bootstrap-dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-fixed-layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-grid-system-with-responsive-features.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-grid-system.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-nested-columns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-offestting-column.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-extending-alerts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-fixed-layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-fluid-layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-form-browser-status.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-form-error.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-horizontal-form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-icon-buttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-icon-navigation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-icon-search-form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-inline-form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-inline-label.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/bootstrap-modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/unit/bootstrap-modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-nav-list-with-icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-navbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-pager-next-previous.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-pager-old-new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-pills-based-dropdown-Navigation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-popover-placement.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-popover-title-and-content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-popover-trigger.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-popover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/bootstrap-popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/unit/bootstrap-popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-progress-bars-with-additional-colors.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-responsive-design.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/css/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/css/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/css/bootstrap-responsive.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/bootstrap-scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/unit/bootstrap-scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-search-form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-stacked-navigation-with-nav-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-tab-based-dropdown-Navigation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/bootstrap-tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/unit/bootstrap-tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-table.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-thumbnails-customized.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/bootstrap-tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/unit/bootstrap-tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/bootstrap-transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/unit/bootstrap-transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-typeahead.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/bootstrap-typeahead.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/unit/bootstrap-typeahead.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-typehead-with-options.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-typehead.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-typography.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-using-default-thumbnails.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-zebra-stripped-table.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/spec/specs/comments.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/spec/specs/comments.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/wrappers/common.js.mustache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/lib/compiler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/components.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/templates/pages/components.mustache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/spec/specs/delimiters.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/spec/specs/delimiters.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/css/docs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/download.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/templates/pages/download.mustache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/business_partners/edit.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/css/example-fixed-layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/css/example-fluid-layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/examples.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/templates/pages/examples.mustache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/examples/fluid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/hero-unit.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/examples/hero.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.amd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.amd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.mustache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.mustache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/lib/hogan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/1.0.0/hogan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/builds/1.0.0/hogan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/builds/1.0.3/hogan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/1.0.0/hogan.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/builds/1.0.0/hogan.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/builds/1.0.3/hogan.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/bin/hulk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/business_partners/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/index.html.mustache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/templates/pages/index.mustache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/spec/specs/interpolation.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/spec/specs/interpolation.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/spec/specs/inverted.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/spec/specs/inverted.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/javascript.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/templates/pages/javascript.mustache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/vendor/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/wrappers/js.mustache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/stylesheets/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/templates/layout.mustache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/layouts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/less.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/templates/pages/less.mustache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/html/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/templates/list.mustache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/wrappers/mustache.js.mustache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/mustache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/business_partners/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contract_mortgage_loans/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/spec/specs/partials.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/spec/specs/partials.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/js/google-code-prettify/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/js/google-code-prettify/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/vendor/qunit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/vendor/qunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/tools/release.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/reset.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/responsive.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/scaffolding.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/templates/pages/scaffolding.mustache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/spec/specs/sections.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/spec/specs/sections.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/business_partners/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contract_mortgage_loans/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/stylesheets/skeleton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/sprites.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/examples/starter-template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/builds/1.0.5/template-1.0.5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/web/builds/1.0.5/template-1.0.5.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/lib/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/upgrading.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/templates/pages/upgrading.mustache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/tools/web_templates.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/wells.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/spec/specs/~lambdas.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/spec/specs/~lambdas.yml" />
+      <change type="DELETED" beforePath="C:\Users\I079958\DML\dist\css\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\I079958\DML\dist\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\I079958\DML\dist\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\I079958\DML\dist\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\I079958\DML\dist\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\I079958\DML\dist\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\I079958\DML\dist\js\bootstrap.js" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\I079958\DML\dist\css\bootstrap.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/DML.iml" afterPath="$PROJECT_DIR$/.idea/DML.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/applies/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/applies/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contracts/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/contracts/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/applies_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/applies_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/apply.rb" afterPath="$PROJECT_DIR$/app/models/apply.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/business_partner.rb" afterPath="$PROJECT_DIR$/app/models/business_partner.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/condition.rb" afterPath="$PROJECT_DIR$/app/models/condition.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/contract.rb" afterPath="$PROJECT_DIR$/app/models/contract.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/disbursement.rb" afterPath="$PROJECT_DIR$/app/models/disbursement.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/applies/index.html.erb" afterPath="$PROJECT_DIR$/app/views/applies/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contracts/index.html.erb" afterPath="$PROJECT_DIR$/app/views/contracts/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/disbursements/index.html.erb" afterPath="$PROJECT_DIR$/app/views/disbursements/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/mortgage_loan.rb" afterPath="$PROJECT_DIR$/app/models/mortgage_loan.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/applies/new.html.erb" afterPath="$PROJECT_DIR$/app/views/applies/new.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/applies/show.html.erb" afterPath="$PROJECT_DIR$/app/views/applies/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DML.iws" />
@@ -24,12 +361,13 @@
   <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DML@Run_test__repayment_info_test___DML.coverage" NAME="Run test 'repayment_info_test': DML Coverage Results" MODIFIED="1395631409299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DML" />
-    <SUITE FILE_PATH="coverage/DML@IRB_console__DML.coverage" NAME="IRB console: DML Coverage Results" MODIFIED="1394607795567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DML" />
     <SUITE FILE_PATH="coverage/DML@repayment_info.coverage" NAME="repayment_info Coverage Results" MODIFIED="1394608959877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/models" MODULE_NAME="DML" />
+    <SUITE FILE_PATH="coverage/DML@IRB_console__DML.coverage" NAME="IRB console: DML Coverage Results" MODIFIED="1394607795567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DML" />
     <SUITE FILE_PATH="coverage/DML@collateral.coverage" NAME="collateral Coverage Results" MODIFIED="1394608918516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/models" MODULE_NAME="DML" />
+    <SUITE FILE_PATH="coverage/DML@business_partners_controller.coverage" NAME="business_partners_controller Coverage Results" MODIFIED="1395815743813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="DML" />
     <SUITE FILE_PATH="coverage/DML@Run_test__mortgage_loan_test___DML.coverage" NAME="Run test 'mortgage_loan_test': DML Coverage Results" MODIFIED="1395637725969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DML" />
-    <SUITE FILE_PATH="coverage/DML@All_tests_in_demo__projects.coverage" NAME="All tests in demo: projects Coverage Results" MODIFIED="1394420338241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/projects/demo" MODULE_NAME="projects" />
     <SUITE FILE_PATH="coverage/DML@Development__DML.coverage" NAME="Development: DML Coverage Results" MODIFIED="1394420623234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DML" />
+    <SUITE FILE_PATH="coverage/DML@All_tests_in_demo__projects.coverage" NAME="All tests in demo: projects Coverage Results" MODIFIED="1394420338241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/projects/demo" MODULE_NAME="projects" />
     <SUITE FILE_PATH="coverage/DML@test__DML.coverage" NAME="test: DML Coverage Results" MODIFIED="1395629144481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DML" />
     <SUITE FILE_PATH="coverage/DML@All_tests_in_learnning__projects.coverage" NAME="All tests in learnning: projects Coverage Results" MODIFIED="1394420666579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/projects/learnning" MODULE_NAME="projects" />
   </component>
@@ -53,14 +391,14 @@
               <favorite_root url="file://$PROJECT_DIR$/app/views/layouts/application.html.erb" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
             </favorite_root>
           </favorite_root>
-          <favorite_root url="file://$PROJECT_DIR$/app/assets" module="DML" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/dist" module="DML" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
             <favorite_root url="file://$PROJECT_DIR$/app/assets/images" module="DML" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
               <favorite_root url="file://$PROJECT_DIR$/app/assets/images/rails.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
             </favorite_root>
             <favorite_root url="file://$PROJECT_DIR$/app/assets/javascripts" module="DML" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
               <favorite_root url="file://$PROJECT_DIR$/app/assets/javascripts/application.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
             </favorite_root>
-            <favorite_root url="file://$PROJECT_DIR$/app/assets/stylesheets" module="DML" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/dist/css" module="DML" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
               <favorite_root url="file://$PROJECT_DIR$/app/assets/stylesheets/application.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
             </favorite_root>
           </favorite_root>
@@ -182,109 +520,162 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/applies/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="23" selection-start="508" selection-end="508" vertical-scroll-proportion="-11.535714" vertical-offset="0" max-vertical-offset="1178">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/applies/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="36" selection-start="103" selection-end="103" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="228">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/applies/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="40" selection-start="665" selection-end="665" vertical-scroll-proportion="-16.964285" vertical-offset="0" max-vertical-offset="779">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/applies/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="32" selection-start="68" selection-end="68" vertical-scroll-proportion="-1.3571428" vertical-offset="0" max-vertical-offset="152">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/contracts/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="32" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1634">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/disbursements/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="731" selection-end="836" vertical-scroll-proportion="-19.428572" vertical-offset="463" max-vertical-offset="1159">
-              <folding>
-                <marker date="1394940204042" expanded="true" signature="36:92" placeholder="..." />
-                <marker date="1394940204042" expanded="true" signature="97:145" placeholder="..." />
-                <marker date="1394940204042" expanded="true" signature="150:216" placeholder="..." />
-                <marker date="1394940204042" expanded="true" signature="221:289" placeholder="..." />
-                <marker date="1394940204042" expanded="true" signature="294:356" placeholder="..." />
-                <marker date="1394940204042" expanded="true" signature="361:429" placeholder="..." />
-                <marker date="1394940204042" expanded="true" signature="434:502" placeholder="..." />
-                <marker date="1394940204042" expanded="true" signature="507:579" placeholder="..." />
-                <marker date="1394940204042" expanded="true" signature="584:654" placeholder="..." />
-                <marker date="1394940204042" expanded="true" signature="659:727" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/contracts/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="122" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="228">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="business_partner.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/business_partner.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="66" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apply.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/apply.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/applies/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="16" selection-start="252" selection-end="252" vertical-scroll-proportion="0.23563218" vertical-offset="64" max-vertical-offset="760">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5437743">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/contracts/index.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="49" column="0" selection-start="1236" selection-end="1236" vertical-scroll-proportion="-19.142857" vertical-offset="395" max-vertical-offset="1102">
+                  <folding>
+                    <marker date="1396235939851" expanded="true" signature="32:1227" placeholder="..." />
+                    <marker date="1396235939851" expanded="true" signature="40:1220" placeholder="..." />
+                    <marker date="1396235939851" expanded="true" signature="47:362" placeholder="..." />
+                    <marker date="1396235939851" expanded="true" signature="406:1201" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/applies/_form.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="14" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1216">
+                  <folding>
+                    <marker date="1395987709847" expanded="true" signature="212:507" placeholder="..." />
+                    <marker date="1395987709847" expanded="true" signature="227:343" placeholder="..." />
+                    <marker date="1395987709847" expanded="true" signature="358:492" placeholder="..." />
+                    <marker date="1395987709847" expanded="true" signature="545:620" placeholder="..." />
+                    <marker date="1395987709847" expanded="true" signature="644:724" placeholder="..." />
+                    <marker date="1395987709847" expanded="true" signature="748:828" placeholder="..." />
+                    <marker date="1395987709847" expanded="true" signature="852:942" placeholder="..." />
+                    <marker date="1395987709847" expanded="true" signature="966:1049" placeholder="..." />
+                    <marker date="1395987709847" expanded="true" signature="1073:1148" placeholder="..." />
+                    <marker date="1395987709847" expanded="true" signature="1172:1253" placeholder="..." />
+                    <marker date="1395987709847" expanded="true" signature="1277:1355" placeholder="..." />
+                    <marker date="1395987709847" expanded="true" signature="1379:1462" placeholder="..." />
+                    <marker date="1395987709847" expanded="true" signature="1486:1575" placeholder="..." />
+                    <marker date="1395987709847" expanded="true" signature="1601:1634" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="44" column="0" selection-start="1570" selection-end="1570" vertical-scroll-proportion="0.0" vertical-offset="709" max-vertical-offset="1235">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/contract_mortgage_loans/new.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="83" column="0" selection-start="2985" selection-end="2985" vertical-scroll-proportion="0.7987013" vertical-offset="1208" max-vertical-offset="1691">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="condition.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/models/condition.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="1" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/applies/index.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="9" column="17" selection-start="161" selection-end="161" vertical-scroll-proportion="-0.0" vertical-offset="171" max-vertical-offset="798">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/contract_mortgage_loans/show.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="7" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="247">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="repayment_info.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/models/repayment_info.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config/routes.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="0" selection-start="354" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="1520">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="contract_mortgage_loans_controller.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/controllers/contract_mortgage_loans_controller.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="19" column="12" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="836">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mortgage_loan.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/models/mortgage_loan.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="4" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="condition_item.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/models/condition_item.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="0" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="266">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="disbursement.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/models/disbursement.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="7" column="2" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="285">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="contract.rb" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/models/contract.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="54" selection-start="903" selection-end="903" vertical-scroll-proportion="0.5" vertical-offset="0" max-vertical-offset="532">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -301,57 +692,57 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$USER_HOME$/projects/learnning/Dev_DML/app/models/person.rb" />
-        <option value="$USER_HOME$/projects/learnning/Dev_DML/db/migrate/20140311114055_add_reference_from_post_to_event.rb" />
-        <option value="$USER_HOME$/projects/learnning/Dev_DML/app/views/events/_form.html.erb" />
-        <option value="$USER_HOME$/projects/learnning/Dev_DML/app/models/post.rb" />
-        <option value="$USER_HOME$/projects/learnning/Dev_DML/app/views/events/index.html.erb" />
-        <option value="$USER_HOME$/projects/learnning/Dev_DML/app/models/event.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20140312052132_create_conditions.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20140312052157_create_condition_items.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20140312063740_change_condition_coloumn_name.rb" />
-        <option value="$PROJECT_DIR$/app/models/collateral.rb" />
-        <option value="$PROJECT_DIR$/app/models/communication_info.rb" />
-        <option value="$PROJECT_DIR$/app/models/indentify_info.rb" />
-        <option value="$PROJECT_DIR$/app/models/repayment_info.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20140312081736_change_condition_item_name.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20140312082044_rename_condtion_item_coluum.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20140312082212_rename_condition_item_column.rb" />
-        <option value="$PROJECT_DIR$/app/models/condition_item.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20140312051919_create_mortgage_loans.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20140314015545_add_reference_to_mortgage_loan.rb" />
-        <option value="$PROJECT_DIR$/app/models/contract_business_partnership.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20140315063513_create_applies.rb" />
-        <option value="$PROJECT_DIR$/app/models/condition.rb" />
-        <option value="$PROJECT_DIR$/app/models/mortgage_loan.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20140315072726_add_column_to_business_partner.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20140315073251_rename_column_of_bp.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20140316033230_create_cash_flows.rb" />
-        <option value="$PROJECT_DIR$/app/models/business_process_record.rb" />
-        <option value="$PROJECT_DIR$/app/models/cash_flow.rb" />
-        <option value="$PROJECT_DIR$/app/models/disbursement.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
-        <option value="$USER_HOME$/projects/learnning/Dev_DML/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/test/unit/repayment_info_test.rb" />
-        <option value="$PROJECT_DIR$/test/unit/mortgage_loan_test.rb" />
-        <option value="$PROJECT_DIR$/test/fixtures/conditions.yml" />
-        <option value="$PROJECT_DIR$/test/fixtures/condition_items.yml" />
-        <option value="$PROJECT_DIR$/app/models/contract.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/models/business_partner.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/controllers/applies_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/contracts/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/applies/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/contracts/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/applies/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/applies/_form.erb" />
+        <option value="$PROJECT_DIR$/app/views/business_partners/create.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/disbursements_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/business_partners/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/contracts/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/repayment_infos/_repament_info.erb" />
+        <option value="$PROJECT_DIR$/app/views/repayment_infos/_repament_info.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/repayment_infos/new_html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/repayment_infos_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/repayment_infos/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/business_partners/_repayment_info.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/business_partners/_identify_info.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/business_partner.rb" />
+        <option value="$PROJECT_DIR$/app/views/business_partners/_communication_info.erb" />
+        <option value="$PROJECT_DIR$/app/views/business_partners/_collateral.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/business_partners/_edit_collateral.html.erb" />
         <option value="$PROJECT_DIR$/app/models/apply.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140327072823_delete_column_proposer_from_apply.rb" />
+        <option value="$PROJECT_DIR$/app/views/disbursements/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/business_partners.js.coffee" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/app/views/business_partners/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/business_partners/_new_form.erb" />
+        <option value="$PROJECT_DIR$/app/views/business_partners/_edit_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/business_partners/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/applies/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/applies_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/applies/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/applies/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/applies/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/applies/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/applies/new.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/business_partners/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/disbursements/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/disbursement.rb" />
+        <option value="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-basic-alerts.html" />
+        <option value="$PROJECT_DIR$/app/views/contracts/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/business_partners_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/contracts_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/business_partners/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/contracts/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/contract_mortgage_loans_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/contract_mortgage_loans/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/condition.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140331080314_add_contract_id_to_condition.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140331085710_addcontract_id_to_condition.rb" />
+        <option value="$PROJECT_DIR$/app/models/mortgage_loan.rb" />
+        <option value="$PROJECT_DIR$/app/models/contract.rb" />
+        <option value="$PROJECT_DIR$/app/views/contract_mortgage_loans/new.html.erb" />
       </list>
     </option>
   </component>
@@ -363,10 +754,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1592" />
     <option name="y" value="-8" />
     <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -394,7 +785,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -459,6 +850,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contract_mortgage_loans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="business_partners" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -477,45 +934,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -529,8 +950,23 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
+    <property name="SearchEverywhereHistory" value="&#10;bankID" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug._form.erb">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\I079958\DML" />
+      <recent name="C:\Users\I079958\DML\app\assets\stylesheets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\I079958\DML\app\assets\javascripts" />
+      <recent name="C:\Users\I079958\DML\app\assets\stylesheets" />
+      <recent name="C:\Users\I079958\DML\app\assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.bootstrap-breadcrumbs.html">
     <configuration default="false" name="All tests in demo: projects" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="projects" />
@@ -585,34 +1021,6 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Run test 'repayment_info_test': DML" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="DML" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift) -Itest" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/unit/repayment_info_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="Run test 'mortgage_loan_test': DML" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="DML" />
@@ -641,7 +1049,29 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="_form.erb" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://127.0.0.1:3000/applies/_form">
+    <configuration default="false" name="business_partners_controller" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="DML" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/app/controllers" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/app/controllers/business_partners_controller.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyCover" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyCover" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="bootstrap-breadcrumbs.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/DML/twitter-bootstrap/demo/bootstrap-breadcrumbs.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -775,6 +1205,8 @@
       <method />
     </configuration>
     <configuration default="false" name="index.html.erb" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" uri="http://127.0.0.1:3000/applies">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
     <list size="10">
@@ -782,20 +1214,19 @@
       <item index="1" class="java.lang.String" itemvalue="Rake.spec: DML" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: DML" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: DML" />
-      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in demo: projects" />
-      <item index="5" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in learnning: projects" />
-      <item index="6" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'repayment_info_test': DML" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html.erb" />
+      <item index="5" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in demo: projects" />
+      <item index="6" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in learnning: projects" />
       <item index="7" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'mortgage_loan_test': DML" />
-      <item index="8" class="java.lang.String" itemvalue="JavaScript Debug.index.html.erb" />
-      <item index="9" class="java.lang.String" itemvalue="JavaScript Debug._form.erb" />
+      <item index="8" class="java.lang.String" itemvalue="Ruby.business_partners_controller" />
+      <item index="9" class="java.lang.String" itemvalue="JavaScript Debug.bootstrap-breadcrumbs.html" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug._form.erb" />
-        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in learnning: projects" />
-        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in demo: projects" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in learnning: projects" />
+        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in demo: projects" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.business_partners_controller" />
         <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'mortgage_loan_test': DML" />
-        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'repayment_info_test': DML" />
       </list>
     </recent_temporary>
   </component>
@@ -846,28 +1277,48 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
-    <editor active="false" />
+    <frame x="1592" y="-8" width="1456" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294423" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31258106" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294423" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814527" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32841328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2718327" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24965987" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32618025" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994812" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1981402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39827374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299748" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31776914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294423" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299748" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31611317" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858992" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32595325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294423" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29495472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39827374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299748" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858992" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24965987" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44351733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3168927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -881,348 +1332,351 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.13/lib/active_record/connection_adapters/sqlite_adapter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="277" column="0" selection-start="7970" selection-end="7970" vertical-scroll-proportion="0.0" vertical-offset="5104" max-vertical-offset="11191" />
-      </provider>
-    </entry>
-    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sqlite3-1.3.8-x86-mingw32/lib/sqlite3/database.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="0" selection-start="3333" selection-end="3333" vertical-scroll-proportion="0.0" vertical-offset="1551" max-vertical-offset="11115" />
-      </provider>
-    </entry>
-    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.13/lib/active_support/testing/setup_and_teardown.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0" vertical-offset="487" max-vertical-offset="2413" />
-      </provider>
-    </entry>
-    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-3.2.13/lib/active_support/callbacks.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="0" selection-start="2842" selection-end="2842" vertical-scroll-proportion="0.0" vertical-offset="1361" max-vertical-offset="12008" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140315073251_rename_column_of_bp.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="479" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140312081736_change_condition_item_name.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="479" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140312082044_rename_condtion_item_coluum.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="479" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140312082212_rename_condition_item_column.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="458" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140312052157_create_condition_items.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140312052132_create_conditions.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="458" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140312063740_change_condition_coloumn_name.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="19" selection-start="3707" selection-end="3710" vertical-scroll-proportion="0.0" vertical-offset="3105" max-vertical-offset="3762">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/repayment_info.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/repayment_info_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/projects/demo/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589" />
-      </provider>
-    </entry>
-    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract_adapter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="274" column="0" selection-start="8912" selection-end="8912" vertical-scroll-proportion="0.0" vertical-offset="5047" max-vertical-offset="5738" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/condition.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="70" selection-start="106" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/mortgage_loan_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="19" selection-start="445" selection-end="449" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="589" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/contract_business_partnerships.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="479" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/contracts.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="779">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/conditions.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="10" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/condition_items.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="12" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="741">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2204">
+        <state line="110" column="0" selection-start="2490" selection-end="2490" vertical-scroll-proportion="1.3185484" vertical-offset="1436" max-vertical-offset="2204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="503" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.671371" vertical-offset="333" max-vertical-offset="836" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/business_partners/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="7" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="798" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/disbursements/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/disbursements/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="8" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="1197" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/business_partner.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="93" selection-start="841" selection-end="902" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/contract.rb">
+    <entry file="file://$PROJECT_DIR$/script/rails">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="524" column="35" selection-start="15631" selection-end="15631" vertical-scroll-proportion="0.0" vertical-offset="4109" max-vertical-offset="30590" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/disbursements/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="8" selection-start="1118" selection-end="1118" vertical-scroll-proportion="-12.214286" vertical-offset="342" max-vertical-offset="874" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/apply.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contracts/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="485" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contracts/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="0" selection-start="900" selection-end="900" vertical-scroll-proportion="-11.285714" vertical-offset="1128" max-vertical-offset="1634" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contracts/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="209" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.039175257" vertical-offset="0" max-vertical-offset="485" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/business_partners.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.11264822" vertical-offset="0" max-vertical-offset="506" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6599" column="1" selection-start="113586" selection-end="113586" vertical-scroll-proportion="0.6409736" vertical-offset="125065" max-vertical-offset="135337" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/business_partners/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="45" selection-start="132" selection-end="132" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="209" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-breadcrumbs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="14" selection-start="358" selection-end="358" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="684" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter-bootstrap/bootstrap/css/bootstrap-responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="9" selection-start="2125" selection-end="2131" vertical-scroll-proportion="-4.8" vertical-offset="2445" max-vertical-offset="21185" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-basic-alerts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="94" selection-start="231" selection-end="325" vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter-bootstrap/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.7482994" vertical-offset="1653" max-vertical-offset="43415" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/business_partners/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="11" selection-start="479" selection-end="479" vertical-scroll-proportion="-4.071429" vertical-offset="228" max-vertical-offset="665" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1311">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/business_process_record.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="209">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483">
+        <state line="14" column="0" selection-start="354" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1520">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/contracts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1691">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="685" selection-end="685" vertical-scroll-proportion="0.54140127" vertical-offset="353" max-vertical-offset="836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/disbursements/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="228">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/disbursements/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="194" selection-end="194" vertical-scroll-proportion="4.071429" vertical-offset="285" max-vertical-offset="893">
-          <folding />
-        </state>
+        <state line="17" column="26" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1691" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/applies_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="33" selection-start="181" selection-end="181" vertical-scroll-proportion="-4.56" vertical-offset="0" max-vertical-offset="1596">
-          <folding />
-        </state>
+        <state line="17" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="1083" max-vertical-offset="1634" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/disbursements/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-button.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="376" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1197">
-          <folding>
-            <marker date="1394940204064" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1394940204064" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1394940204064" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1394940204064" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1394940204064" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1394940204064" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1394940204064" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1394940204064" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1394940204064" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1394940204064" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1394940204064" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1394940204064" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1394940204064" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1026" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contracts/new.html.erb">
+    <entry file="file://$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483">
-          <folding />
-        </state>
+        <state line="15" column="53" selection-start="494" selection-end="494" vertical-scroll-proportion="-10.178572" vertical-offset="0" max-vertical-offset="1026" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contracts/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/contract_mortgage_loans_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="64" selection-start="1098" selection-end="1158" vertical-scroll-proportion="-14.678572" vertical-offset="387" max-vertical-offset="1083">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/applies.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="724">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="351" column="5" selection-start="5306" selection-end="5306" vertical-scroll-proportion="0.0" vertical-offset="6327" max-vertical-offset="135584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contracts/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="0" selection-start="1886" selection-end="1938" vertical-scroll-proportion="-18.071428" vertical-offset="881" max-vertical-offset="1577">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/business_partner.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="66" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contracts/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="122" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="228">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/disbursements/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="731" selection-end="836" vertical-scroll-proportion="-19.428572" vertical-offset="463" max-vertical-offset="1159">
-          <folding>
-            <marker date="1394940204042" expanded="true" signature="36:92" placeholder="..." />
-            <marker date="1394940204042" expanded="true" signature="97:145" placeholder="..." />
-            <marker date="1394940204042" expanded="true" signature="150:216" placeholder="..." />
-            <marker date="1394940204042" expanded="true" signature="221:289" placeholder="..." />
-            <marker date="1394940204042" expanded="true" signature="294:356" placeholder="..." />
-            <marker date="1394940204042" expanded="true" signature="361:429" placeholder="..." />
-            <marker date="1394940204042" expanded="true" signature="434:502" placeholder="..." />
-            <marker date="1394940204042" expanded="true" signature="507:579" placeholder="..." />
-            <marker date="1394940204042" expanded="true" signature="584:654" placeholder="..." />
-            <marker date="1394940204042" expanded="true" signature="659:727" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/applies/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="36" selection-start="103" selection-end="103" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="228">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contracts/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="32" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1634">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/applies/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="32" selection-start="68" selection-end="68" vertical-scroll-proportion="-1.3571428" vertical-offset="0" max-vertical-offset="152">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/applies/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="40" selection-start="665" selection-end="665" vertical-scroll-proportion="-16.964285" vertical-offset="0" max-vertical-offset="779">
+        <state line="19" column="12" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/applies/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="23" selection-start="508" selection-end="508" vertical-scroll-proportion="-11.535714" vertical-offset="0" max-vertical-offset="1178">
+        <state line="13" column="14" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1216">
+          <folding>
+            <marker date="1395987709847" expanded="true" signature="212:507" placeholder="..." />
+            <marker date="1395987709847" expanded="true" signature="227:343" placeholder="..." />
+            <marker date="1395987709847" expanded="true" signature="358:492" placeholder="..." />
+            <marker date="1395987709847" expanded="true" signature="545:620" placeholder="..." />
+            <marker date="1395987709847" expanded="true" signature="644:724" placeholder="..." />
+            <marker date="1395987709847" expanded="true" signature="748:828" placeholder="..." />
+            <marker date="1395987709847" expanded="true" signature="852:942" placeholder="..." />
+            <marker date="1395987709847" expanded="true" signature="966:1049" placeholder="..." />
+            <marker date="1395987709847" expanded="true" signature="1073:1148" placeholder="..." />
+            <marker date="1395987709847" expanded="true" signature="1172:1253" placeholder="..." />
+            <marker date="1395987709847" expanded="true" signature="1277:1355" placeholder="..." />
+            <marker date="1395987709847" expanded="true" signature="1379:1462" placeholder="..." />
+            <marker date="1395987709847" expanded="true" signature="1486:1575" placeholder="..." />
+            <marker date="1395987709847" expanded="true" signature="1601:1634" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1570" selection-end="1570" vertical-scroll-proportion="0.0" vertical-offset="709" max-vertical-offset="1235">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/apply.rb">
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_view/helpers/form_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+        <state line="1368" column="10" selection-start="58471" selection-end="58471" vertical-scroll-proportion="-0.7122708" vertical-offset="26497" max-vertical-offset="28367" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contracts/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="11" selection-start="36" selection-end="355" vertical-scroll-proportion="0.3069016" vertical-offset="0" max-vertical-offset="1577" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/condition_item.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/disbursement.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="2" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="464" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/business_partners_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="57" selection-start="786" selection-end="786" vertical-scroll-proportion="1.2437923" vertical-offset="0" max-vertical-offset="1653" />
+      </provider>
+    </entry>
+    <entry file="uml://RailsDependency/#DML">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>RailsDependency</ID>
+          <OriginalElement>#DML</OriginalElement>
+          <nodes>
+            <node x="" y="">Condition</node>
+            <node x="" y="">Collateral</node>
+            <node x="" y="">Contract</node>
+            <node x="" y="">ConditionItem</node>
+            <node x="" y="">ContractBusinessPartnership</node>
+            <node x="" y="">IndentifyInfo</node>
+            <node x="" y="">CashFlow</node>
+            <node x="" y="">CommunicationInfo</node>
+            <node x="" y="">MortgageLoan</node>
+            <node x="" y="">Disbursement</node>
+            <node x="" y="">Apply</node>
+            <node x="" y="">RepaymentInfo</node>
+            <node x="" y="">BusinessPartner</node>
+            <node x="" y="">BusinessProcessRecord</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0008614976805832" x="988.0" y="441.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Migration fields</Category>
+            <Category>Association fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140331080314_add_contract_id_to_condition.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.1812977" vertical-offset="0" max-vertical-offset="524">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140331085710_addcontract_id_to_condition.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="12" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="209">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="25" selection-start="965" selection-end="965" vertical-scroll-proportion="-4.928571" vertical-offset="3002" max-vertical-offset="3762">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/business_partners/_repayment_info.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="463">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contracts/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1236" selection-end="1236" vertical-scroll-proportion="-19.142857" vertical-offset="395" max-vertical-offset="1102">
+          <folding>
+            <marker date="1396235939851" expanded="true" signature="32:1227" placeholder="..." />
+            <marker date="1396235939851" expanded="true" signature="40:1220" placeholder="..." />
+            <marker date="1396235939851" expanded="true" signature="47:362" placeholder="..." />
+            <marker date="1396235939851" expanded="true" signature="406:1201" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/condition.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/mortgage_loan.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/contract.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="54" selection-start="903" selection-end="903" vertical-scroll-proportion="0.5" vertical-offset="0" max-vertical-offset="532">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/repayment_info.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="490">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/applies/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="252" selection-end="252" vertical-scroll-proportion="0.23563218" vertical-offset="64" max-vertical-offset="760">
+        <state line="9" column="17" selection-start="161" selection-end="161" vertical-scroll-proportion="-0.0" vertical-offset="171" max-vertical-offset="798">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contract_mortgage_loans/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="247">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contract_mortgage_loans/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="0" selection-start="2985" selection-end="2985" vertical-scroll-proportion="0.7987013" vertical-offset="1208" max-vertical-offset="1691">
           <folding />
         </state>
       </provider>

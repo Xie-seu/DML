@@ -1,5 +1,5 @@
 class BusinessPartner < ActiveRecord::Base
-  attr_accessible :name, :companyCode, :apply_id
+  attr_accessible :name, :companyCode, :apply_id, :repayment_info_attributes, :collaterals_attributes, :communication_info_attributes, :indentify_info_attributes
   has_one :repayment_info, :dependent =>  :destroy
   has_one :communication_info , :dependent =>  :destroy
   has_one :indentify_info, :dependent =>  :destroy
@@ -7,7 +7,14 @@ class BusinessPartner < ActiveRecord::Base
   has_many :contract_business_partnerships, :dependent =>  :destroy
   has_many :contracts, :through => :contract_business_partnerships
   has_many :applies
-  #还需要添加contract和Application 2014-03-10 16:55
+  accepts_nested_attributes_for :repayment_info, :allow_destroy => :true,
+                                :reject_if => proc { |attrs| attrs.all? { |k, v| v.blank? } }
+  accepts_nested_attributes_for :indentify_info, :allow_destroy => :true,
+                                :reject_if => proc { |attrs| attrs.all? { |k, v| v.blank? } }
+  accepts_nested_attributes_for :communication_info, :allow_destroy => :true,
+                                :reject_if => proc { |attrs| attrs.all? { |k, v| v.blank? } }
+  accepts_nested_attributes_for :collaterals, :allow_destroy => :true,
+                                :reject_if => proc { |attrs| attrs.all? { |k, v| v.blank? } }
 
   #添加资料验证
   validates_presence_of :name

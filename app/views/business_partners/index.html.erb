@@ -1,0 +1,30 @@
+<h1 style="border: 1">业务伙伴</h1>
+<table border="1">
+  <tr>
+    <td>公司代码</td>
+    <td>名称</td>
+    <td>联系信息</td>
+    <td>资产（抵押物）</td>
+    <td>身份信息</td>
+    <td>合同信息</td>
+    <td>贷款申请</td>
+    <td>支付信息</td>
+  </tr>
+  <% @business_partners.each do |bp| %>
+      <tr>
+        <td><%= bp.companyCode %></td>
+        <td><%= bp.name %></td>
+        <td><%= bp.communication_info  == nil ? "未填写" : "已填写"  %></td>
+        <td><%= bp.collaterals  == nil ? "未填写" : "已填写"  %></td>
+        <td><%= bp.indentify_info  == nil ? "未填写" : "已填写"  %></td>
+        <td><%= bp.contracts  == nil ? "未申请" : "已有"  %></td>
+        <td><%= bp.applies == nil ? "未申请" : "已有申请"%></td>
+        <td onclick="alert('要是出现\'没填写\'，那么Bug还没修好 = =')"><%= bp.repayment_info == nil ? "未填写" : "已填写" %></td>
+        <td class="col-lg-1"><%= link_to "详细", bp %></td>
+        <td class="col-lg-1"><%= link_to '修改', edit_business_partner_path(bp) %></td>
+        <td class="col-lg-1"><%= link_to "删除", bp, method: :delete, data: { confirm: "你确定删除么"} %></td>
+      </tr>
+  <% end %>
+</table>
+<%= link_to "新建客户", new_business_partner_path  %>
+<%= link_to "相关合同", contracts_path%>

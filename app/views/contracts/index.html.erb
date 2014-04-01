@@ -1,22 +1,22 @@
-<h1>Listing contracts</h1>
-
+<h1>合同列表</h1>
+<div class="span5">
 <table>
   <tr>
-    <th>Serialid</th>
-    <th>Contractnumber</th>
-    <th>Term</th>
-    <th>Usepath</th>
-    <th>Amount</th>
-    <th>Currency</th>
-    <th>Browser</th>
-    <th>Startdate</th>
-    <th>Enddate</th>
-    <th>Contractperiod</th>
-    <th>Repaymenttype</th>
-    <th>Interest</th>
-    <th>Defaulint</th>
-    <th>Credit</th>
-    <th>Status</th>
+    <th>流水号</th>
+    <th>合同号</th>
+    <th>期限</th>
+    <th>用途</th>
+    <th>贷款总额</th>
+    <th>贷款币种</th>
+    <th>贷款人</th>
+    <th>合同生效日期</th>
+    <th>合同终止日期</th>
+    <th>合同期限</th>
+    <th>还款方式</th>
+    <th>实际利息</th>
+    <th>基础利息</th>
+    <th>授信</th>
+    <th>合同状态</th>
     <th></th>
     <th></th>
     <th></th>
@@ -45,7 +45,8 @@
   </tr>
 <% end %>
 </table>
-
+</div>
 <br />
 
 <%= link_to 'New Contract', new_contract_path %>
+<%= link_to "业务伙伴", business_partners_path %>

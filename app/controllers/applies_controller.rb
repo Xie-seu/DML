@@ -36,7 +36,6 @@ class AppliesController < ApplicationController
   # POST /applys.json
   def create
     @apply = Apply.new(params[:apply])
-
     respond_to do |format|
       if @apply.save
         format.html { redirect_to @apply, notice: 'apply was successfully created.' }
@@ -46,7 +45,10 @@ class AppliesController < ApplicationController
         format.json { render json: @apply.errors, status: :unprocessable_entity }
       end
     end
+
   end
+
+
 
   # PUT /applys/1
   # PUT /applys/1.json

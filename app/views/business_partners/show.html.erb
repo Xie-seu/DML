@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+<h1>业务伙伴</h1>
+<table border="1">
+  <tr>
+    <td>公司代码</td>
+    <td>名称</td>
+    <td>联系信息</td>
+    <td>资产（抵押物）</td>
+    <td>身份信息</td>
+    <td>合同信息</td>
+    <td>贷款申请</td>
+    <td>支付信息</td>
+  </tr>
+      <tr>
+        <td><%= @business_partner.companyCode %></td>
+        <td><%= @business_partner.name %></td>
+        <td><%= @business_partner.communication_info == nil ? "未填写" : "已有"%></td>
+        <td><%= @business_partner.collaterals == nil ? "未填写" : "已有"%></td>
+        <td><%= @business_partner.indentify_info == nil ? "未填写" : "已有"%></td>
+        <td><%= @business_partner.contracts == nil ? "无合同" : "已有" %></td>
+        <td><%= @business_partner.applies == nil ? "无申请" : "已有"%></td>
+        <td><%= @business_partner.repayment_info == nil ? "未填写" : "已有" %></td>
+      </tr>
+</table>
+<p><b>支付信息</b></p>
+<p><%= @business_partner.repayment_info == nil ? " 未填写" : (render "business_partners/repayment_info") %></p>
+<p><b>身份信息</b></p>
+<p><%= @business_partner.indentify_info == nil ? " 未填写" : (render "business_partners/identify_info") %></p>
+<p><b>资产抵押物信息</b></p>
+<p><b>联系信息</b></p>
+<p><%= @business_partner.communication_info == nil ? " 未填写" : (render "business_partners/communication_info") %></p>
+<%= link_to "填写其他信息", edit_business_partner_url %>
+<%= link_to "创建申请", new_business_partner_apply_path(@business_partner) %>
+<%= link_to "业务伙伴", business_partners_path %>
+<% if @contracts != nil%>
+<%= link_to "相关合同", business_partner_contract_path( @business_partner) %>
+<% end %>

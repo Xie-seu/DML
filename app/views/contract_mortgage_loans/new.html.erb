@@ -1,0 +1,83 @@
+<div class="container"><br><br>
+<%= form_for @mortgage_loan, :url => contract_mortgage_loan_path(@contract) do |f| %>
+      <% if @mortgage_loan.errors.any? %>
+          <div id="error_explanation">
+            <h2><%= pluralize(@mortgage_loan.errors.count, "error") %> prohibited this contract from being saved:</h2>
+
+            <ul>
+              <% @mortgage_loan.errors.full_messages.each do |msg| %>
+                  <li><%= msg %></li>
+              <% end %>
+            </ul>
+          </div>
+      <% end %>
+  <form class="form-horizontal">
+    <fieldset>
+      <legend>贷款信息输入</legend>
+
+      <div class="control-group">
+        <label class="control-label" for="input01"><%= f.label :FinProj %></label>
+        <div class="controls">
+          <p class="help-block"> <%= f.number_field :FinProj %>
+          金融项目（有些贷款是涉及到了银行的某些相关项目的）</p>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="input01"><%= f.label :interestCal %></label>
+        <div class="controls">
+          <p class="help-block"><%= f.number_field :interestCal %>
+          利息计算方式。</p>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="input01"><%= f.label :loanClass %></label>
+        <div class="controls">
+          <p class="help-block"><%= f.number_field :loanClass %>
+        贷款类</p>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="input01"><%= f.label :loanType %></label>
+        <div class="controls">
+          <p class="help-block"><%= f.number_field :loanType%>
+          贷款类型</p>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="input01"><%= f.label :disAcc %></label>
+        <div class="controls">
+          <p class="help-block"><%= f.number_field :disAcc%>
+         折扣</p>
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label" for="input01"><%= f.label :term %></label>
+        <div class="controls">
+          <p class="help-block"><%= f.number_field :term %>
+          期限</p>
+        </div>
+      </div>
+      <div class="control-group">
+      <label class="control-label" for="input01"><%= f.label :IPDcontrol %></label>
+      <div class="controls">
+        <p class="help-block"><%= f.number_field :IPDcontrol %>
+       IPD控制代码</p>
+      </div>
+    </div>
+      <div class="control-group">
+        <label class="control-label" for="input01"><%= f.label :contracCurrency %></label>
+        <div class="controls">
+          <p class="help-block"><%= f.number_field :contracCurrency %>
+          合同币种</p>
+        </div>
+      </div>
+
+      <div class="form-actions">
+       <input type="submit" class="btn btn-primary"><%= f.submit %>
+        <button type="submit" class="btn btn-primary"><%= link_to "回到上一页", contract_mortgage_loan_url(@contract) %></button>
+      </div>
+    </fieldset>
+  </form>
+  <% end %>
+
+    </div>

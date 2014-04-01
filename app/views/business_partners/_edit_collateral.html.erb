@@ -1,0 +1,19 @@
+<br>
+<%= form.fields_for :collaterals do |builder| %>
+    <div><tr>
+      <td><%= builder.label :collateralType %></td>
+      <td> <%= builder.number_field :collateralType%><br>
+      <td><%= builder.label :feather %></td>
+      <td> <%= builder.number_field :feather%><br>
+      <td><%= builder.label :objectValue %></td>
+      <td> <%= builder.number_field :objectValue%><br>
+        </td>
+      </tr>
+      </div>
+        <% unless builder.object.nil? || builder.object.new_record? %>
+            <div class="field">
+              <%= builder.label :_destroy, "remove"%>
+              <%= builder.check_box :_destroy%>
+            </div>
+        <% end %>
+<% end %>

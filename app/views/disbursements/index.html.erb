@@ -1,10 +1,10 @@
-<h1>Listing disbursements</h1>
-
-<table>
+<h1>还款记录</h1>
+<table border="1">
   <tr>
     <th>Flowtype</th>
     <th>Text</th>
-    <th>Repaymenttype</th>
+    <th>还款方式</th>
+    <!-- 1 -->
     <th>Postingcontrol</th>
     <th>Paymentdate</th>
     <th>Currentpayment</th>
@@ -29,13 +29,12 @@
     <td><%= disbursement.disbursementRate %></td>
     <td><%= disbursement.disbursementInt %></td>
     <td><%= disbursement.grossPayAmount %></td>
-    <td><%= link_to 'Show', disbursement %></td>
-    <td><%= link_to 'Edit', edit_disbursement_path(disbursement) %></td>
-    <td><%= link_to 'Destroy', disbursement, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to '详细', disbursement %></td>
+    <td><%= link_to '编辑', edit_disbursement_path(disbursement) %></td>
+    <td><%= link_to '删除', disbursement, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>
-
 <br />
 
-<%= link_to 'New Disbursement', new_disbursement_path %>
+<p class="test"><%= link_to 'New Disbursement', new_disbursement_path %></p>

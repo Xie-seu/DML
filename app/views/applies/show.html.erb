@@ -14,8 +14,8 @@
     <td>经办人</td>
   </tr>
       <tr>
-        <td><%= @apply.amount %></td>
-        <td><%= @apply.currency %></td>
+        <td><%= number_with_delimiter(@apply.amount) %></td>
+        <td><%= number_to_currency(@apply.currency)%></td>
         <td><%= @apply.loanType %></td>
         <td><%= @apply.repaymentType %></td>
         <td><%= @apply.term %></td>
@@ -24,11 +24,10 @@
         <td><%= @apply.endDate %></td>
         <td><%= @apply.business_partner_id %></td>
         <td><%= @apply.processor %></td>
-
 </table>
 
 <h2>关于合同的更多信息</h2>
-
+<p> some thing need to put in</p>
 
 
 <%= link_to '修改', edit_apply_path(@apply) %> |
