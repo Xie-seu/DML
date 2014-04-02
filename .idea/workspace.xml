@@ -2,9 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="437c2692-88e8-4b6a-9b9f-38cec62bf390" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/mortgage_loan.rb" afterPath="$PROJECT_DIR$/app/models/mortgage_loan.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contract_mortgage_loans/new.html.erb" afterPath="$PROJECT_DIR$/app/views/contract_mortgage_loans/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contract_mortgage_loans/show.html.erb" afterPath="$PROJECT_DIR$/app/views/contract_mortgage_loans/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.min.css" />
+      <change type="DELETED" beforePath="C:\Users\I079958\DML\twitter-bootstrap\bootstrap\css\bootstrap.min.css" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\I079958\DML\twitter-bootstrap\bootstrap\css\bootstrap-responsive.css" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap-responsive.css" />
+      <change type="MOVED" beforePath="C:\Users\I079958\DML\twitter-bootstrap\bootstrap\css\bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap-responsive.min.css" />
+      <change type="MOVED" beforePath="C:\Users\I079958\DML\twitter-bootstrap\bootstrap\css\bootstrap.css" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/DML.iml" afterPath="$PROJECT_DIR$/.idea/DML.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/base-css.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/base-css.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-fixed-layout.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-fixed-layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-grid-system-with-responsive-features.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-grid-system-with-responsive-features.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-grid-system.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-grid-system.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-nested-columns.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-nested-columns.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-offestting-column.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-offestting-column.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/bootstrap.less" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/bootstrap.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/components.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/components.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/download.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/download.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/examples.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/examples.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/index.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/index.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/index.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/javascript.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/javascript.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/less.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/less.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/responsive.less" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/responsive.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/scaffolding.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/scaffolding.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/upgrading.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/upgrading.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DML.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,13 +43,13 @@
   <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DML@Run_test__repayment_info_test___DML.coverage" NAME="Run test 'repayment_info_test': DML Coverage Results" MODIFIED="1395631409299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DML" />
-    <SUITE FILE_PATH="coverage/DML@repayment_info.coverage" NAME="repayment_info Coverage Results" MODIFIED="1394608959877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/models" MODULE_NAME="DML" />
     <SUITE FILE_PATH="coverage/DML@IRB_console__DML.coverage" NAME="IRB console: DML Coverage Results" MODIFIED="1394607795567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DML" />
+    <SUITE FILE_PATH="coverage/DML@repayment_info.coverage" NAME="repayment_info Coverage Results" MODIFIED="1394608959877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/models" MODULE_NAME="DML" />
     <SUITE FILE_PATH="coverage/DML@collateral.coverage" NAME="collateral Coverage Results" MODIFIED="1394608918516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/models" MODULE_NAME="DML" />
     <SUITE FILE_PATH="coverage/DML@business_partners_controller.coverage" NAME="business_partners_controller Coverage Results" MODIFIED="1395815743813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/controllers" MODULE_NAME="DML" />
     <SUITE FILE_PATH="coverage/DML@Run_test__mortgage_loan_test___DML.coverage" NAME="Run test 'mortgage_loan_test': DML Coverage Results" MODIFIED="1395637725969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DML" />
-    <SUITE FILE_PATH="coverage/DML@Development__DML.coverage" NAME="Development: DML Coverage Results" MODIFIED="1394420623234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DML" />
     <SUITE FILE_PATH="coverage/DML@All_tests_in_demo__projects.coverage" NAME="All tests in demo: projects Coverage Results" MODIFIED="1394420338241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/projects/demo" MODULE_NAME="projects" />
+    <SUITE FILE_PATH="coverage/DML@Development__DML.coverage" NAME="Development: DML Coverage Results" MODIFIED="1394420623234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DML" />
     <SUITE FILE_PATH="coverage/DML@test__DML.coverage" NAME="test: DML Coverage Results" MODIFIED="1395629144481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="DML" />
     <SUITE FILE_PATH="coverage/DML@All_tests_in_learnning__projects.coverage" NAME="All tests in learnning: projects Coverage Results" MODIFIED="1394420666579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/projects/learnning" MODULE_NAME="projects" />
   </component>
@@ -78,7 +104,7 @@
           <favorite_root url="file://$PROJECT_DIR$/lib/tasks" module="DML" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
             <favorite_root url="file://$PROJECT_DIR$/lib/tasks/.gitkeep" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
           </favorite_root>
-          <favorite_root url="file://$PROJECT_DIR$/lib/assets" module="DML" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$" module="DML" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
             <favorite_root url="file://$PROJECT_DIR$/lib/assets/.gitkeep" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
           </favorite_root>
         </favorite_root>
@@ -179,83 +205,76 @@
     <splitter split-orientation="horizontal" split-proportion="0.5437743">
       <split-first>
         <leaf>
-          <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/contract_mortgage_loans/new.html.erb">
+          <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/business_partners/edit.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="15" selection-start="518" selection-end="518" vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="1691">
+                <state line="3" column="0" selection-start="45" selection-end="46" vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="209">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/contract_mortgage_loans/show.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="11" selection-start="218" selection-end="218" vertical-scroll-proportion="0.22983871" vertical-offset="0" max-vertical-offset="496">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="285">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="repayment_info.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/models/repayment_info.rb">
+          <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/contracts/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+                <state line="1" column="0" selection-start="31" selection-end="77" vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="1330">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="business_process_record.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/models/business_process_record.rb">
+          <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/contracts/edit.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="0" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="209">
+                <state line="5" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="209">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="backtrace_silencers.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/initializers/backtrace_silencers.rb">
+          <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/disbursements/_form.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+                <state line="17" column="0" selection-start="716" selection-end="716" vertical-scroll-proportion="-11.535714" vertical-offset="0" max-vertical-offset="437">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="mime_types.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/initializers/mime_types.rb">
+          <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/business_partner_applies/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="209">
+                <state line="33" column="40" selection-start="934" selection-end="934" vertical-scroll-proportion="-11.830189" vertical-offset="0" max-vertical-offset="1045">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="secret_token.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/initializers/secret_token.rb">
+          <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/business_partner_applies/new.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+                <state line="1" column="28" selection-start="107" selection-end="107" vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="418">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="session_store.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/initializers/session_store.rb">
+          <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="wrap_parameters.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/initializers/wrap_parameters.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
-                  <folding />
+                <state line="69" column="15" selection-start="3250" selection-end="3250" vertical-scroll-proportion="0.36228815" vertical-offset="1140" max-vertical-offset="2128">
+                  <folding>
+                    <element signature="tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -264,55 +283,100 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/business_partners/show.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="0" selection-start="354" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="1520">
+                <state line="32" column="67" selection-start="1363" selection-end="1363" vertical-scroll-proportion="-13.571428" vertical-offset="228" max-vertical-offset="798">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="contract_mortgage_loans_controller.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/controllers/contract_mortgage_loans_controller.rb">
+          <file leaf-file-name="_index.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/disbursements/_index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="12" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="836">
+                <state line="6" column="17" selection-start="111" selection-end="111" vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="855">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="mortgage_loan.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/models/mortgage_loan.rb">
+          <file leaf-file-name="bootstrap-example-fixed-layout.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-fixed-layout.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="0" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+                <state line="10" column="16" selection-start="344" selection-end="344" vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="399">
+                  <folding>
+                    <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/applies/index.html.erb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="23" column="34" selection-start="1136" selection-end="1136" vertical-scroll-proportion="-15.607142" vertical-offset="0" max-vertical-offset="1140">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="condition_item.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/models/condition_item.rb">
+          <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/applies/_form.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="0" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="266">
+                <state line="3" column="25" selection-start="154" selection-end="154" vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="437">
+                  <folding>
+                    <marker date="1396418674503" expanded="true" signature="434:614" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="business_partner_applies_controller.rb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/controllers/business_partner_applies_controller.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="7" column="11" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="446" max-vertical-offset="969">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="disbursement.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/models/disbursement.rb">
+          <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/contracts/_form.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="2" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+                <state line="8" column="27" selection-start="356" selection-end="356" vertical-scroll-proportion="-2.8679245" vertical-offset="0" max-vertical-offset="532">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="contract.rb" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/models/contract.rb">
+          <file leaf-file-name="bootstrap-fluid-layout.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-fluid-layout.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="0" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.71428573" vertical-offset="0" max-vertical-offset="532">
+                <state line="11" column="72" selection-start="569" selection-end="569" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="950">
+                  <folding>
+                    <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                    <element signature="tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                    <element signature="tag#div#1;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                    <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="example-fluid-layout.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/css/example-fluid-layout.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="10" column="7" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="fluid-layout.css" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/fluid-layout.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="10" column="7" selection-start="165" selection-end="165" vertical-scroll-proportion="0.38617885" vertical-offset="0" max-vertical-offset="950">
                   <folding />
                 </state>
               </provider>
@@ -337,57 +401,57 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/applies/_form.erb" />
-        <option value="$PROJECT_DIR$/app/views/business_partners/create.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/disbursements_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/business_partners/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/contracts/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/repayment_infos/_repament_info.erb" />
-        <option value="$PROJECT_DIR$/app/views/repayment_infos/_repament_info.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/repayment_infos/new_html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/repayment_infos_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/repayment_infos/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/business_partners/_repayment_info.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/business_partners/_identify_info.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/business_partner.rb" />
         <option value="$PROJECT_DIR$/app/views/business_partners/_communication_info.erb" />
         <option value="$PROJECT_DIR$/app/views/business_partners/_collateral.html.erb" />
         <option value="$PROJECT_DIR$/app/views/business_partners/_edit_collateral.html.erb" />
         <option value="$PROJECT_DIR$/app/models/apply.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140327072823_delete_column_proposer_from_apply.rb" />
-        <option value="$PROJECT_DIR$/app/views/disbursements/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/business_partners.js.coffee" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/app/views/business_partners/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/business_partners/_new_form.erb" />
-        <option value="$PROJECT_DIR$/app/views/business_partners/_edit_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/business_partners/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/applies/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/applies_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/applies/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/applies/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/applies/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/applies/new.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/business_partners/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/disbursements/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/disbursement.rb" />
         <option value="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-basic-alerts.html" />
-        <option value="$PROJECT_DIR$/app/views/contracts/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/business_partners_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/contracts_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/business_partners/index.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/contracts/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/contract_mortgage_loans_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/models/condition.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140331080314_add_contract_id_to_condition.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140331085710_addcontract_id_to_condition.rb" />
-        <option value="$PROJECT_DIR$/app/models/contract.rb" />
         <option value="$PROJECT_DIR$/app/views/contract_mortgage_loans/new.html.erb" />
         <option value="$PROJECT_DIR$/app/models/mortgage_loan.rb" />
+        <option value="$PROJECT_DIR$/app/models/contract.rb" />
         <option value="$PROJECT_DIR$/app/views/contract_mortgage_loans/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/contracts/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/contracts/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/disbursements/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/disbursements_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/disbursements/_index.html.erb" />
+        <option value="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-badge.html" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/views/applies/show.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/helpers/disbursements_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/business_partners/_edit_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/disbursements/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/disbursements/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/contracts/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/contracts/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/applies/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/applies/_form.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/business_partners/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/business_partners/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/business_partners/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/business_partner_applies/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/business_partner_applies/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/business_partner_applies_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/contracts/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -430,7 +494,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -462,8 +525,18 @@
               <option name="myItemId" value="twitter-bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
+              <option name="myItemId" value="DML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -477,7 +550,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="twitter-bootstrap" />
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -491,33 +568,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contract_mortgage_loans" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -537,6 +588,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -552,19 +604,22 @@
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
     <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
-    <property name="SearchEverywhereHistory" value="，&#10;bankID" />
+    <property name="SearchEverywhereHistory" value="&#10;，&#10;bankID" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\I079958\DML" />
       <recent name="C:\Users\I079958\DML\app\assets\stylesheets" />
+      <recent name="C:\Users\I079958\DML" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\I079958\DML\vendor\assets\stylesheets" />
+      <recent name="C:\Users\I079958\DML" />
+      <recent name="C:\Users\I079958\DML\lib\assets" />
       <recent name="C:\Users\I079958\DML\app\assets\javascripts" />
       <recent name="C:\Users\I079958\DML\app\assets\stylesheets" />
-      <recent name="C:\Users\I079958\DML\app\assets" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.bootstrap-breadcrumbs.html">
@@ -805,6 +860,12 @@
       <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
       <method />
     </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
     <configuration default="false" name="index.html.erb" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" uri="http://127.0.0.1:3000/applies">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -855,6 +916,11 @@
       <created>1394419581177</created>
       <updated>1394419581177</updated>
     </task>
+    <task id="LOCAL-00001" summary="新增了一个controller，调整了文件位置安装了bootstrap和simple_f">
+      <created>1396431626072</created>
+      <updated>1396431626072</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -878,27 +944,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1592" y="-8" width="1456" height="916" extended-state="7" />
-    <editor active="true" />
+    <frame x="1592" y="-8" width="1456" height="916" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32841328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2718327" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32799014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25770652" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24965987" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1981402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1981402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39827374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299748" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15498155" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31611317" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858992" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32595325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32595325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -916,9 +983,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24965987" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44351733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3168927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -934,6 +1001,8 @@
       <TodoPanelSettings />
     </option>
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
+    <MESSAGE value="新增了一个controller，调整了文件位置安装了bootstrap和simple_f" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增了一个controller，调整了文件位置安装了bootstrap和simple_f" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -941,366 +1010,349 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/contracts/edit.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/communication_info.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="485" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contracts/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/business_partners/_edit_collateral.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="900" selection-end="900" vertical-scroll-proportion="-11.285714" vertical-offset="1128" max-vertical-offset="1634" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="724" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contracts/new.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/apply.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="209" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.039175257" vertical-offset="0" max-vertical-offset="485" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/business_partners.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.11264822" vertical-offset="0" max-vertical-offset="506" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/business_partners/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="45" selection-start="132" selection-end="132" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="209" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-breadcrumbs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="358" selection-end="358" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="684" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitter-bootstrap/bootstrap/css/bootstrap-responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="9" selection-start="2125" selection-end="2131" vertical-scroll-proportion="-4.8" vertical-offset="2445" max-vertical-offset="21185" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-basic-alerts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="94" selection-start="231" selection-end="325" vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="627" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitter-bootstrap/bootstrap/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.7482994" vertical-offset="1653" max-vertical-offset="43415" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/business_partners/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="11" selection-start="479" selection-end="479" vertical-scroll-proportion="-4.071429" vertical-offset="228" max-vertical-offset="665" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="354" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1520">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/contracts_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/business_partner.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="26" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1691" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/applies_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="1083" max-vertical-offset="1634" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-button.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1026" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="53" selection-start="494" selection-end="494" vertical-scroll-proportion="-10.178572" vertical-offset="0" max-vertical-offset="1026" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/contract_mortgage_loans_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="12" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
+        <state line="18" column="9" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/applies/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="14" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1216">
-          <folding>
-            <marker date="1395987709847" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1395987709847" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1395987709847" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1395987709847" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1395987709847" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1395987709847" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1395987709847" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1395987709847" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1395987709847" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1395987709847" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1395987709847" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1395987709847" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1395987709847" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1395987709847" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="538" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/applies_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1570" selection-end="1570" vertical-scroll-proportion="0.0" vertical-offset="709" max-vertical-offset="1235">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="538" />
       </provider>
     </entry>
-    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_view/helpers/form_helper.rb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/business_partners_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1368" column="10" selection-start="58471" selection-end="58471" vertical-scroll-proportion="-0.7122708" vertical-offset="26497" max-vertical-offset="28367" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="517" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contracts/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/contract_mortgage_loans_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="36" selection-end="355" vertical-scroll-proportion="0.3069016" vertical-offset="0" max-vertical-offset="1577" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/condition_item.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="464" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/business_partners_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="57" selection-start="786" selection-end="786" vertical-scroll-proportion="1.2437923" vertical-offset="0" max-vertical-offset="1653" />
-      </provider>
-    </entry>
-    <entry file="uml://RailsDependency/#DML">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>RailsDependency</ID>
-          <OriginalElement>#DML</OriginalElement>
-          <nodes>
-            <node x="" y="">Condition</node>
-            <node x="" y="">Collateral</node>
-            <node x="" y="">Contract</node>
-            <node x="" y="">ConditionItem</node>
-            <node x="" y="">ContractBusinessPartnership</node>
-            <node x="" y="">IndentifyInfo</node>
-            <node x="" y="">CashFlow</node>
-            <node x="" y="">CommunicationInfo</node>
-            <node x="" y="">MortgageLoan</node>
-            <node x="" y="">Disbursement</node>
-            <node x="" y="">Apply</node>
-            <node x="" y="">RepaymentInfo</node>
-            <node x="" y="">BusinessPartner</node>
-            <node x="" y="">BusinessProcessRecord</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0008614976805832" x="988.0" y="441.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Migration fields</Category>
-            <Category>Association fields</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140331080314_add_contract_id_to_condition.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.1812977" vertical-offset="0" max-vertical-offset="524">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140331085710_addcontract_id_to_condition.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="209">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="965" selection-end="965" vertical-scroll-proportion="-4.928571" vertical-offset="3002" max-vertical-offset="3762">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/business_partners/_repayment_info.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="463">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contracts/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1236" selection-end="1236" vertical-scroll-proportion="-19.142857" vertical-offset="395" max-vertical-offset="1102">
-          <folding>
-            <marker date="1396235939851" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396235939851" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396235939851" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396235939851" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="517" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/condition.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="472" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/contract.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="494">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/applies/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="161" selection-end="161" vertical-scroll-proportion="-0.0" vertical-offset="171" max-vertical-offset="798">
+        <state line="10" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/business_partners/_edit_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="328" selection-end="328" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="1292" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/disbursements/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="209" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/disbursements/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="310" selection-end="310" vertical-scroll-proportion="-5.428571" vertical-offset="0" max-vertical-offset="855" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/simple_form.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="48" selection-start="322" selection-end="322" vertical-scroll-proportion="-4.4578586" vertical-offset="2052" max-vertical-offset="2812" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/simple_form_bootstrap.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/simple_form.en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+    <entry file="file://$PROJECT_DIR$/app/views/contracts/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135584">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="494">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/app/views/contracts/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6599" column="1" selection-start="113586" selection-end="113586" vertical-scroll-proportion="0.0" vertical-offset="125065" max-vertical-offset="135337">
+        <state line="49" column="0" selection-start="2530" selection-end="2530" vertical-scroll-proportion="0.0" vertical-offset="579" max-vertical-offset="1045">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/applies_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1634">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/business_partners/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/applies/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="209">
+          <folding>
+            <marker date="1396418121507" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/applies/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
+        <state line="32" column="57" selection-start="1474" selection-end="1593" vertical-scroll-proportion="-9.571428" vertical-offset="340" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/contracts_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="517">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contract_mortgage_loans/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="15" selection-start="518" selection-end="518" vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="1691">
+        <state line="13" column="32" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1691">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/app/views/disbursements/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
+        <state line="51" column="42" selection-start="2409" selection-end="2409" vertical-scroll-proportion="0.7779633" vertical-offset="503" max-vertical-offset="1102">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="490">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="481">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/business_process_record.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/business_partners/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="209">
+        <state line="28" column="0" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.7462437" vertical-offset="85" max-vertical-offset="684">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/backtrace_silencers.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/applies/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="490">
+        <state line="5" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="209">
+          <folding>
+            <marker date="1396418120594" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/applies/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="34" selection-start="1136" selection-end="1136" vertical-scroll-proportion="-15.607142" vertical-offset="0" max-vertical-offset="1140">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/mime_types.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/business_partner_applies/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="503">
+        <state line="33" column="40" selection-start="934" selection-end="934" vertical-scroll-proportion="-11.830189" vertical-offset="0" max-vertical-offset="1045">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/secret_token.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/applies/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="490">
+        <state line="3" column="25" selection-start="154" selection-end="154" vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="437">
+          <folding>
+            <marker date="1396418674503" expanded="true" signature="434:614" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/business_partner_applies/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="577">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/wrap_parameters.rb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="490">
+        <state line="14" column="0" selection-start="407" selection-end="407" vertical-scroll-proportion="0.52362204" vertical-offset="0" max-vertical-offset="1520">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/session_store.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/business_partners/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="524">
+        <state line="32" column="67" selection-start="1363" selection-end="1363" vertical-scroll-proportion="-13.571428" vertical-offset="228" max-vertical-offset="798">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/mortgage_loan.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/business_partner_applies/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/disbursement.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/repayment_info.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="490">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-Stacked-or-vertical-Tab-Based-Navigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+        <state line="1" column="28" selection-start="107" selection-end="107" vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="418">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contract_mortgage_loans/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="11" selection-start="218" selection-end="218" vertical-scroll-proportion="0.22983871" vertical-offset="0" max-vertical-offset="496">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="703">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/contract.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/contracts/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.71428573" vertical-offset="0" max-vertical-offset="532">
+        <state line="1" column="0" selection-start="31" selection-end="77" vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="1330">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/business_partner_applies_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="11" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="446" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contracts/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="27" selection-start="356" selection-end="356" vertical-scroll-proportion="-2.8679245" vertical-offset="0" max-vertical-offset="532">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contracts/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="209">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/disbursements_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="32" selection-start="692" selection-end="692" vertical-scroll-proportion="1.0976095" vertical-offset="0" max-vertical-offset="1596">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/disbursements/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="716" selection-end="716" vertical-scroll-proportion="-11.535714" vertical-offset="0" max-vertical-offset="437">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/disbursements_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.07692308" vertical-offset="0" max-vertical-offset="494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/disbursements/_index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="111" selection-end="111" vertical-scroll-proportion="-4.071429" vertical-offset="0" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-fixed-layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="16" selection-start="344" selection-end="344" vertical-scroll-proportion="-6.785714" vertical-offset="0" max-vertical-offset="399">
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/business_partners/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="45" selection-end="46" vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="209">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-fluid-layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="72" selection-start="569" selection-end="569" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="950">
+          <folding>
+            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/assets/css/example-fluid-layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="7" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/fluid-layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="7" selection-start="165" selection-end="165" vertical-scroll-proportion="0.38617885" vertical-offset="0" max-vertical-offset="950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="15" selection-start="3250" selection-end="3250" vertical-scroll-proportion="0.36228815" vertical-offset="1140" max-vertical-offset="2128">
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

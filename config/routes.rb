@@ -1,14 +1,14 @@
 DML::Application.routes.draw do
   #BP中可以直接新建与之相关的申请和合同，并有查看，删除，和修改的功能。【但是不能修改和删除已经在执行的合同或已经存档的申请】
   resources :business_partners do
-    resources :applies
+    resources :applies ,:controller => "business_partner_applies"
     resources :contracts
   end
 
   resources :disbursements
 
   resources :applies
-  #合同中可以查找BP，和申请一样
+  #合同中可以使用checkBox多选BP，和申请一样
   resources :contracts do
     resource :mortgage_loan, controller: 'contract_mortgage_loans'
   end
