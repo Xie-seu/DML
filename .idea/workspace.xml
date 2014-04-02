@@ -2,34 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="437c2692-88e8-4b6a-9b9f-38cec62bf390" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.min.css" />
-      <change type="DELETED" beforePath="C:\Users\I079958\DML\twitter-bootstrap\bootstrap\css\bootstrap.min.css" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\I079958\DML\twitter-bootstrap\bootstrap\css\bootstrap-responsive.css" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap-responsive.css" />
-      <change type="MOVED" beforePath="C:\Users\I079958\DML\twitter-bootstrap\bootstrap\css\bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap-responsive.min.css" />
-      <change type="MOVED" beforePath="C:\Users\I079958\DML\twitter-bootstrap\bootstrap\css\bootstrap.css" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/DML.iml" afterPath="$PROJECT_DIR$/.idea/DML.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/base-css.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/base-css.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-fixed-layout.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-fixed-layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-grid-system-with-responsive-features.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-grid-system-with-responsive-features.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-grid-system.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-grid-system.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-nested-columns.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-nested-columns.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-offestting-column.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/demo/bootstrap-example-offestting-column.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/bootstrap.less" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/bootstrap.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/components.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/components.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/download.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/download.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/examples.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/examples.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/index.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/index.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/build/node_modules/hogan.js/test/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/index.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/js/tests/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/javascript.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/javascript.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/less.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/less.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/responsive.less" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/less/responsive.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/scaffolding.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/scaffolding.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/upgrading.html" afterPath="$PROJECT_DIR$/twitter-bootstrap/bootstrap/twitter-bootstrap-v2/docs/upgrading.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DML.iws" />
@@ -271,7 +243,7 @@
           <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="69" column="15" selection-start="3250" selection-end="3250" vertical-scroll-proportion="0.36228815" vertical-offset="1140" max-vertical-offset="2128">
+                <state line="71" column="48" selection-start="3313" selection-end="3313" vertical-scroll-proportion="1.9809104" vertical-offset="0" max-vertical-offset="2128">
                   <folding>
                     <element signature="tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                   </folding>
@@ -376,7 +348,7 @@
           <file leaf-file-name="fluid-layout.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/fluid-layout.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="7" selection-start="165" selection-end="165" vertical-scroll-proportion="0.38617885" vertical-offset="0" max-vertical-offset="950">
+                <state line="10" column="7" selection-start="165" selection-end="165" vertical-scroll-proportion="0.27104136" vertical-offset="0" max-vertical-offset="950">
                   <folding />
                 </state>
               </provider>
@@ -523,66 +495,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="twitter-bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -920,7 +832,11 @@
       <created>1396431626072</created>
       <updated>1396431626072</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增了一个controller，调整了文件位置安装了bootstrap和simple_f">
+      <created>1396431667366</created>
+      <updated>1396431667366</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -949,7 +865,7 @@
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32799014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25770652" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25770652" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24965987" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1068,7 +984,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874" />
+        <state line="10" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/business_partners/_edit_form.html.erb">
@@ -1342,14 +1260,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/fluid-layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7" selection-start="165" selection-end="165" vertical-scroll-proportion="0.38617885" vertical-offset="0" max-vertical-offset="950">
+        <state line="10" column="7" selection-start="165" selection-end="165" vertical-scroll-proportion="0.27104136" vertical-offset="0" max-vertical-offset="950">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="15" selection-start="3250" selection-end="3250" vertical-scroll-proportion="0.36228815" vertical-offset="1140" max-vertical-offset="2128">
+        <state line="71" column="48" selection-start="3313" selection-end="3313" vertical-scroll-proportion="1.9809104" vertical-offset="0" max-vertical-offset="2128">
           <folding>
             <element signature="tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
           </folding>
