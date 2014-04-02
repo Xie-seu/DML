@@ -1,57 +1,17 @@
-<%= form_for(@disbursement) do |f| %>
-  <% if @disbursement.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@disbursement.errors.count, "error") %> prohibited this disbursement from being saved:</h2>
-
-      <ul>
-      <% @disbursement.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-  <div class="field">
-    <%= f.label :flowType %><br />
-    <%= f.number_field :flowType %>
-  </div>
-  <div class="field">
-    <%= f.label :text %><br />
-    <%= f.text_area :text %>
-  </div>
-  <div class="field">
-    <%= f.label :repaymentType %><br />
-    <%= f.number_field :repaymentType %>
-  </div>
-  <div class="field">
-    <%= f.label :postingControl %><br />
-    <%= f.number_field :postingControl %>
-  </div>
-  <div class="field">
-    <%= f.label :paymentDate %><br />
-    <%= f.date_select :paymentDate %>
-  </div>
-  <div class="field">
-    <%= f.label :currentPayment %><br />
-    <%= f.text_field :currentPayment %>
-  </div>
-  <div class="field">
-    <%= f.label :nominalPayment %><br />
-    <%= f.number_field :nominalPayment %>
-  </div>
-  <div class="field">
-    <%= f.label :disbursementRate %><br />
-    <%= f.text_field :disbursementRate %>
-  </div>
-  <div class="field">
-    <%= f.label :disbursementInt %><br />
-    <%= f.text_field :disbursementInt %>
-  </div>
-  <div class="field">
-    <%= f.label :grossPayAmount %><br />
-    <%= f.text_field :grossPayAmount %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
+<%= simple_form_for @disbursement , :html => { :class => 'form-horizontal' } do |f| %>
+  <%= f.input :flowType , input_html:{ value: '1'}%>
+  <%= f.input :text, placeholder: 'some comments' %>
+  <%= f.input :repaymentType, hint: '1 all in once; 2 annually' %>
+  <%= f.input :postingControl %>
+  <%= f.input :paymentDate %>
+  <%= f.input :currentPayment %>
+  <%= f.input :nominalPayment %>
+  <%= f.input :disbursementRate %>
+  <%= f.input :disbursementInt %>
+  <%= f.input :grossPayAmount %>
+  <div class="form-actions">
+    <%= f.button :submit, :class => 'btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                disbursements_path, :class => 'btn' %>
   </div>
 <% end %>

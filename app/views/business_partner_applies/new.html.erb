@@ -1,0 +1,17 @@
+<%= simple_form_for @apply, :html => { :class => 'form-horizontal' } do |f| %>
+    <%= f.input :loanType %>
+    <%= f.input :term %>
+    <%= f.input :usePath %>
+    <%= f.input :amount %>
+    <%= f.input :currency %>
+    <%= f.input :startDate %>
+    <%= f.input :endDate %>
+    <%= f.input :repaymentType %>
+    <%= f.input :processor %>
+    <%= f.input :business_partner_id %>
+    <div class="form-actions">
+      <%= f.button :submit, :class => 'btn-primary' %>
+      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                  applies_path, :class => 'btn' %>
+    </div>
+<% end %>

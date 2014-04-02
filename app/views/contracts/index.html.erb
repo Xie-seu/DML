@@ -1,52 +1,64 @@
-<h1>合同列表</h1>
-<div class="span5">
-<table>
-  <tr>
-    <th>流水号</th>
-    <th>合同号</th>
-    <th>期限</th>
-    <th>用途</th>
-    <th>贷款总额</th>
-    <th>贷款币种</th>
-    <th>贷款人</th>
-    <th>合同生效日期</th>
-    <th>合同终止日期</th>
-    <th>合同期限</th>
-    <th>还款方式</th>
-    <th>实际利息</th>
-    <th>基础利息</th>
-    <th>授信</th>
-    <th>合同状态</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @contracts.each do |contract| %>
-  <tr>
-    <td><%= contract.serialID %></td>
-    <td><%= contract.contractNumber %></td>
-    <td><%= contract.term %></td>
-    <td><%= contract.usePath %></td>
-    <td><%= contract.amount %></td>
-    <td><%= contract.currency %></td>
-    <td><%= contract.browser %></td>
-    <td><%= contract.startDate %></td>
-    <td><%= contract.endDate %></td>
-    <td><%= contract.contractPeriod %></td>
-    <td><%= contract.repaymentType %></td>
-    <td><%= contract.interest %></td>
-    <td><%= contract.defaulInt %></td>
-    <td><%= contract.credit %></td>
-    <td><%= contract.status %></td>
-    <td><%= link_to 'Show', contract %></td>
-    <td><%= link_to 'Edit', edit_contract_path(contract) %></td>
-    <td><%= link_to 'Destroy', contract, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
-</table>
+<%- model_class = Contract -%>
+<div class="page-header">
+  <h1>合同</h1>
 </div>
-<br />
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th>流水号</th>
+      <th>合同号</th>
+      <th>期限</th>
+      <th>用途</th>
+      <th>贷款总额</th>
+      <th>贷款币种</th>
+      <th>贷款人</th>
+      <th>合同生效日期</th>
+      <th>合同终止日期</th>
+      <th>合同期限</th>
+      <th>还款方式</th>
+      <th>实际利息</th>
+      <th>基础利息</th>
+      <th>授信</th>
+      <th>合同状态</th>
+      <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @contracts.each do |contract| %>
+      <tr>
+        <td><%= link_to contract.id, contract_path(contract) %></td>
+        <td><%= contract.serialID %></td>
+        <td><%= contract.contractNumber %></td>
+        <td><%= contract.term %></td>
+        <td><%= contract.usePath %></td>
+        <td><%= contract.amount %></td>
+        <td><%= contract.currency %></td>
+        <td><%= contract.browser %></td>
+        <td><%= contract.startDate %></td>
+        <td><%= contract.endDate %></td>
+        <td><%= contract.contractPeriod %></td>
+        <td><%= contract.repaymentType %></td>
+        <td><%= contract.interest %></td>
+        <td><%= contract.defaulInt %></td>
+        <td><%= contract.credit %></td>
+        <td><%= contract.status %></td>
+        <td><%=l contract.created_at %></td>
+        <td>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_contract_path(contract), :class => 'btn btn-mini' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      contract_path(contract),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                      :class => 'btn btn-mini btn-danger' %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
 
-<%= link_to 'New Contract', new_contract_path %>
-<%= link_to "业务伙伴", business_partners_path %>
+<%= link_to "新建合同",
+            new_contract_path,
+            :class => 'btn btn-primary' %>

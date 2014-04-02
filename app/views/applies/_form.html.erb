@@ -1,59 +1,17 @@
-<% @apply = BusinessPartner.find(params[:business_partner_id]).applies.build %>
-<%= @apply.business_partner_id %>
-<%= form_for(@apply) do |f| %>
-    <% if @apply.errors.any? %>
-        <div id="error_explanation">
-          <h2>
-            <%= pluralize(@apply.errors.count, "error") %>
-            prohibited this apply from being saved:</h2>
-          <ul>
-            <% @apply.errors.full_messages.each do |msg| %>
-                <li><%= msg %></li>
-            <% end %>
-          </ul>
-        </div>
-    <% end %>
-    <div class="field">
-      <%= f.label "贷款总额" %>
-      <%= f.number_field :amount %>
-    </div>
-    <div class="field">
-      <%= f.label :currency %>
-      <%= f.number_field :currency %>
-    </div>
-    <div class="field">
-      <%= f.label :loanType %>
-      <%= f.number_field :loanType %>
-    </div>
-    <div class="field">
-      <%= f.label :repaymentType %>
-      <%= f.number_field :repaymentType %>
-    </div>
-    <div class="field">
-      <%= f.label :term %>
-      <%= f.number_field :term, in: 1...4 %>
-    </div>
-    <div class="field">
-      <%= f.label :usePath %>
-      <%= f.text_area :usePath %>
-    </div>
-    <div class="field">
-      <%= f.label :startDate %>
-      <%= f.date_select :startDate %>
-    </div>
-    <div class="field">
-      <%= f.label :endDate  %>
-      <%= f.date_select :endDate %>
-    </div>
-    <div class="field">
-      <%= f.label :processor  %>
-      <%= f.number_field :processor %>
-    </div>
-    <div class="field">
-      <%= f.label "用户ID"  %>
-      <%= f.number_field :business_partner_id %>
-    </div>
-    <div class="actions">
-      <%= f.submit %>
-    </div>
+<%= simple_form_for @apply, :html => { :class => 'form-horizontal' } do |f| %>
+  <%= f.input :loanType %>
+  <%= f.input :term %>
+  <%= f.input :usePath %>
+  <%= f.input :amount %>
+  <%= f.input :currency %>
+  <%= f.input :startDate %>
+  <%= f.input :endDate %>
+  <%= f.input :repaymentType %>
+  <%= f.input :processor %>
+  <%= f.select :business_partner_id, BusinessPartner.all.map{ |c| [c.name, c.id ]} %>
+  <div class="form-actions">
+    <%= f.button :submit, :class => 'btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                applies_path, :class => 'btn' %>
+  </div>
 <% end %>

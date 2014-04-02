@@ -1,80 +1,49 @@
-<p id="notice"><%= notice %></p>
+<%- model_class = Contract -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
+</div>
 
-<p>
-  <b>Serialid:</b>
-  <%= @contract.serialID %>
-</p>
+<dl class="dl-horizontal">
+  <dt><strong><%= model_class.human_attribute_name(:serialID) %>:</strong></dt>
+  <dd><%= @contract.serialID %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:contractNumber) %>:</strong></dt>
+  <dd><%= @contract.contractNumber %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:term) %>:</strong></dt>
+  <dd><%= @contract.term %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:usePath) %>:</strong></dt>
+  <dd><%= @contract.usePath %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:amount) %>:</strong></dt>
+  <dd><%= @contract.amount %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:currency) %>:</strong></dt>
+  <dd><%= @contract.currency %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:browser) %>:</strong></dt>
+  <dd><%= @contract.browser %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:startDate) %>:</strong></dt>
+  <dd><%= @contract.startDate %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:endDate) %>:</strong></dt>
+  <dd><%= @contract.endDate %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:contractPeriod) %>:</strong></dt>
+  <dd><%= @contract.contractPeriod %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:repaymentType) %>:</strong></dt>
+  <dd><%= @contract.repaymentType %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:interest) %>:</strong></dt>
+  <dd><%= @contract.interest %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:defaulInt) %>:</strong></dt>
+  <dd><%= @contract.defaulInt %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:credit) %>:</strong></dt>
+  <dd><%= @contract.credit %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:status) %>:</strong></dt>
+  <dd><%= @contract.status %></dd>
+</dl>
 
-<p>
-  <b>Contractnumber:</b>
-  <%= @contract.contractNumber %>
-</p>
-
-<p>
-  <b>Term:</b>
-  <%= @contract.term %>
-</p>
-
-<p>
-  <b>Usepath:</b>
-  <%= @contract.usePath %>
-</p>
-
-<p>
-  <b>Amount:</b>
-  <%= @contract.amount %>
-</p>
-
-<p>
-  <b>Currency:</b>
-  <%= @contract.currency %>
-</p>
-
-<p>
-  <b>Browser:</b>
-  <%= @contract.browser %>
-</p>
-
-<p>
-  <b>Startdate:</b>
-  <%= @contract.startDate %>
-</p>
-
-<p>
-  <b>Enddate:</b>
-  <%= @contract.endDate %>
-</p>
-
-<p>
-  <b>Contractperiod:</b>
-  <%= @contract.contractPeriod %>
-</p>
-
-<p>
-  <b>Repaymenttype:</b>
-  <%= @contract.repaymentType %>
-</p>
-
-<p>
-  <b>Interest:</b>
-  <%= @contract.interest %>
-</p>
-
-<p>
-  <b>Defaulint:</b>
-  <%= @contract.defaulInt %>
-</p>
-
-<p>
-  <b>Credit:</b>
-  <%= @contract.credit %>
-</p>
-
-<p>
-  <b>Status:</b>
-  <%= @contract.status %>
-</p>
-
-
-<%= link_to 'Edit', edit_contract_path(@contract) %> |
-<%= link_to 'Back', contracts_path %>
+<div class="form-actions">
+  <%= link_to t('.back', :default => t("helpers.links.back")),
+              contracts_path, :class => 'btn'  %>
+  <%= link_to t('.edit', :default => t("helpers.links.edit")),
+              edit_contract_path(@contract), :class => 'btn' %>
+  <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+              contract_path(@contract),
+              :method => 'delete',
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+              :class => 'btn btn-danger' %>
+</div>

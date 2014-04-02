@@ -1,0 +1,49 @@
+<div class="page-header">
+  <h1>业务伙伴<b><%= @business_partner.name%></b>的申请</h1>
+</div>
+<% @applies %>
+<% if @applies %>
+   <table class="table table-striped">
+  <tr>
+    <td>申请ID</td>
+    <td>贷款类型</td>
+    <td>贷款期限</td>
+    <td>用途</td>
+    <td>贷款总量</td>
+    <td>贷款货币</td>
+    <td>开始时间</td>
+    <td>结束时间</td>
+    <td>还款类型</td>
+    <td>经办人</td>
+    <td>贷款人</td>
+    <td>创建时间</td>
+  </tr>
+  <tr><% @applies.each do |apply| %>
+      <tr>
+        <td><%= link_to apply.id, apply_path(apply) %></td>
+        <td><%= apply.loanType %></td>
+        <td><%= apply.term %></td>
+        <td><%= apply.usePath %></td>
+        <td><%= apply.amount %></td>
+        <td><%= apply.currency %></td>
+        <td><%= apply.startDate %></td>
+        <td><%= apply.endDate %></td>
+        <td><%= apply.repaymentType %></td>
+        <td><%= apply.processor %></td>
+        <td><%= apply.business_partner_id %></td>
+        <td><%= apply.created_at %></td>
+        <td><%= link_to "修改", edit_apply_path(apply) %></td>
+        </tr>
+     <% end %>
+</table>
+    <p><%= link_to '新建申请',
+                   new_business_partner_apply_path(@business_partner), :class => 'btn' %></p>
+
+<% else %>
+    <p>N/A</p>
+    <p><%= link_to '新建申请',
+                   new_business_partner_apply_path(@business_partner), :class => 'btn' %></p>
+
+<% end %>
+
+

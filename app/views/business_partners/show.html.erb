@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 <h1>业务伙伴</h1>
-<table border="1">
+<table class="table-responsive">
   <tr>
     <td>公司代码</td>
     <td>名称</td>
@@ -30,7 +30,7 @@
 <p><b>联系信息</b></p>
 <p><%= @business_partner.communication_info == nil ? " 未填写" : (render "business_partners/communication_info") %></p>
 <%= link_to "填写其他信息", edit_business_partner_url %>
-<%= link_to "创建申请", new_business_partner_apply_path(@business_partner) %>
+<%= link_to "相关申请", business_partner_applies_path(@business_partner) %>
 <%= link_to "业务伙伴", business_partners_path %>
 <% if @contracts != nil%>
 <%= link_to "相关合同", business_partner_contract_path( @business_partner) %>

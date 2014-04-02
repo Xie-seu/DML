@@ -1,34 +1,39 @@
-<p id="notice"><%= notice %></p>
-<h1>合同信息</h1>
-<table >
-  <tr>
-    <td>贷款总量</td>
-    <td>贷款币种</td>
-    <td>贷款类型</td>
-    <td>还款类型</td>
-    <td>周期</td>
-    <td>用途</td>
-    <td>开始时间</td>
-    <td>结束时间</td>
-    <td>贷款人</td>
-    <td>经办人</td>
-  </tr>
-      <tr>
-        <td><%= number_with_delimiter(@apply.amount) %></td>
-        <td><%= number_to_currency(@apply.currency)%></td>
-        <td><%= @apply.loanType %></td>
-        <td><%= @apply.repaymentType %></td>
-        <td><%= @apply.term %></td>
-        <td><%= @apply.usePath %></td>
-        <td><%= @apply.startDate %></td>
-        <td><%= @apply.endDate %></td>
-        <td><%= @apply.business_partner_id %></td>
-        <td><%= @apply.processor %></td>
-</table>
+<%- model_class = Apply -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
+</div>
 
-<h2>关于合同的更多信息</h2>
-<p> some thing need to put in</p>
+<dl class="dl-horizontal">
+  <dt><strong><%= model_class.human_attribute_name(:loanType) %>:</strong></dt>
+  <dd><%= @apply.loanType %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:term) %>:</strong></dt>
+  <dd><%= @apply.term %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:usePath) %>:</strong></dt>
+  <dd><%= @apply.usePath %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:amount) %>:</strong></dt>
+  <dd><%= @apply.amount %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:currency) %>:</strong></dt>
+  <dd><%= @apply.currency %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:startDate) %>:</strong></dt>
+  <dd><%= @apply.startDate %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:endDate) %>:</strong></dt>
+  <dd><%= @apply.endDate %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:repaymentType) %>:</strong></dt>
+  <dd><%= @apply.repaymentType %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:processor) %>:</strong></dt>
+  <dd><%= @apply.processor %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:business_partner_id) %>:</strong></dt>
+  <dd><%= @apply.business_partner_id %></dd>
+</dl>
 
-
-<%= link_to '修改', edit_apply_path(@apply) %> |
-<%= link_to '回到上一页', applies_path %>
+<div class="form-actions">
+  <%= link_to t('.back', :default => t("helpers.links.back")),
+              applies_path, :class => 'btn'  %>
+  <%= link_to t('.edit', :default => t("helpers.links.edit")),
+              edit_apply_path(@apply), :class => 'btn' %>
+  <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+              apply_path(@apply),
+              :method => 'delete',
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+              :class => 'btn btn-danger' %>
+</div>

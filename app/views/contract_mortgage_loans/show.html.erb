@@ -1,6 +1,8 @@
 <h1>合同号<%= @contract.id%></h1>
 <% if @contract.mortgage_loan %>
 <p><%= @contract.mortgage_loan.FinProj %></p>
+    <p><%= @contract.mortgage_loan.disAcc %></p>
+
     <% else %>
     <%= link_to "添加贷款信息", new_contract_mortgage_loan_path(@contract) %>
 <% end %>

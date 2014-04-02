@@ -1,55 +1,39 @@
-<p id="notice"><%= notice %></p>
+<%- model_class = Disbursement -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
+</div>
 
-<p>
-  <b>Flowtype:</b>
-  <%= @disbursement.flowType %>
-</p>
+<dl class="dl-horizontal">
+  <dt><strong><%= model_class.human_attribute_name(:flowType) %>:</strong></dt>
+  <dd><%= @disbursement.flowType %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:text) %>:</strong></dt>
+  <dd><%= @disbursement.text %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:repaymentType) %>:</strong></dt>
+  <dd><%= @disbursement.repaymentType %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:postingControl) %>:</strong></dt>
+  <dd><%= @disbursement.postingControl %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:paymentDate) %>:</strong></dt>
+  <dd><%= @disbursement.paymentDate %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:currentPayment) %>:</strong></dt>
+  <dd><%= @disbursement.currentPayment %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:nominalPayment) %>:</strong></dt>
+  <dd><%= @disbursement.nominalPayment %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:disbursementRate) %>:</strong></dt>
+  <dd><%= @disbursement.disbursementRate %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:disbursementInt) %>:</strong></dt>
+  <dd><%= @disbursement.disbursementInt %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:grossPayAmount) %>:</strong></dt>
+  <dd><%= @disbursement.grossPayAmount %></dd>
+</dl>
 
-<p>
-  <b>Text:</b>
-  <%= @disbursement.text %>
-</p>
-
-<p>
-  <b>Repaymenttype:</b>
-  <%= @disbursement.repaymentType %>
-</p>
-
-<p>
-  <b>Postingcontrol:</b>
-  <%= @disbursement.postingControl %>
-</p>
-
-<p>
-  <b>Paymentdate:</b>
-  <%= @disbursement.paymentDate %>
-</p>
-
-<p>
-  <b>Currentpayment:</b>
-  <%= @disbursement.currentPayment %>
-</p>
-
-<p>
-  <b>Nominalpayment:</b>
-  <%= @disbursement.nominalPayment %>
-</p>
-
-<p>
-  <b>Disbursementrate:</b>
-  <%= @disbursement.disbursementRate %>
-</p>
-
-<p>
-  <b>Disbursementint:</b>
-  <%= @disbursement.disbursementInt %>
-</p>
-
-<p>
-  <b>Grosspayamount:</b>
-  <%= @disbursement.grossPayAmount %>
-</p>
-
-
-<%= link_to 'Edit', edit_disbursement_path(@disbursement) %> |
-<%= link_to 'Back', disbursements_path %>
+<div class="form-actions">
+  <%= link_to t('.back', :default => t("helpers.links.back")),
+              disbursements_path, :class => 'btn'  %>
+  <%= link_to t('.edit', :default => t("helpers.links.edit")),
+              edit_disbursement_path(@disbursement), :class => 'btn' %>
+  <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+              disbursement_path(@disbursement),
+              :method => 'delete',
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+              :class => 'btn btn-danger' %>
+</div>

@@ -1,36 +1,54 @@
-<h1>贷款申请</h1>
-<table border="1">
-  <tr>
-    <td>贷款总量</td>
-    <td>贷款币种</td>
-    <td>贷款类型</td>
-    <td>还款类型</td>
-    <td>周期</td>
-    <td>用途</td>
-    <td>开始时间</td>
-    <td>结束时间</td>
-    <td>贷款人</td><!-- proposer => businessPartnerID -->
-    <td>经办人</td>
-
-  </tr>
-  <% @applies.each do |apply| %>
-  <tr>
-    <td><%= apply.amount %></td>
-    <td><%= apply.currency %></td>
-    <td><%= apply.loanType %></td>
-    <td><%= apply.repaymentType %></td>
-    <td><%= apply.term %></td>
-    <td><%= apply.usePath %></td>
-    <td><%= apply.startDate %></td>
-    <td><%= apply.endDate %></td>
-    <td><%= apply.business_partner_id %></td><!-- 此处当有更多编程-->
-    <td><%= apply.processor %></td>
-    <td class="col-lg-1"><%= link_to "详细", apply %></td>
-    <td class="col-lg-1"><%= link_to '修改', edit_apply_path(apply) %></td>
-    <td class="col-lg-1"><%= link_to "删除", apply, method: :delete, data: { confirm: "你确定删除么"} %></td>
-  </tr>
-  <% end %>
+<%- model_class = Apply -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
+</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th><%= model_class.human_attribute_name(:loanType) %></th>
+      <th><%= model_class.human_attribute_name(:term) %></th>
+      <th><%= model_class.human_attribute_name(:usePath) %></th>
+      <th><%= model_class.human_attribute_name(:amount) %></th>
+      <th><%= model_class.human_attribute_name(:currency) %></th>
+      <th><%= model_class.human_attribute_name(:startDate) %></th>
+      <th><%= model_class.human_attribute_name(:endDate) %></th>
+      <th><%= model_class.human_attribute_name(:repaymentType) %></th>
+      <th><%= model_class.human_attribute_name(:processor) %></th>
+      <th><%= model_class.human_attribute_name(:business_partner_id) %></th>
+      <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @applies.each do |apply| %>
+      <tr>
+        <td><%= link_to apply.id, apply_path(apply) %></td>
+        <td><%= apply.loanType %></td>
+        <td><%= apply.term %></td>
+        <td><%= apply.usePath %></td>
+        <td><%= apply.amount %></td>
+        <td><%= apply.currency %></td>
+        <td><%= apply.startDate %></td>
+        <td><%= apply.endDate %></td>
+        <td><%= apply.repaymentType %></td>
+        <td><%= apply.processor %></td>
+        <td><%= apply.business_partner_id %></td>
+        <td><%=l apply.created_at %></td>
+        <td>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_apply_path(apply), :class => 'btn btn-mini' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      apply_path(apply),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                      :class => 'btn btn-mini btn-danger' %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
 </table>
 
-<tr><%= link_to "相关业务伙伴", business_partners_path %></tr>
-
+<%= link_to t('.new', :default => t("helpers.links.new")),
+            new_apply_path,
+            :class => 'btn btn-primary' %>

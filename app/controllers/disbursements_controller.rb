@@ -32,11 +32,6 @@ class DisbursementsController < ApplicationController
     end
   end
 
-  # GET /disbursements/1/edit
-  def edit
-    @disbursement = Disbursement.find(params[:id])
-  end
-
   # POST /disbursements
   # POST /disbursements.json
   def create
