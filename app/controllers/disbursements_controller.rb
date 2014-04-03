@@ -1,10 +1,10 @@
 class DisbursementsController < ApplicationController
+  # TODO: 功能，自动扣款标识（目前没有实现方案）.
   # GET /disbursements
   # GET /disbursements.json
   def index
     @disbursements = Disbursement.all
 
-    respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @disbursements }
     end

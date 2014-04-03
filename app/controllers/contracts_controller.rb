@@ -1,4 +1,7 @@
 class ContractsController < ApplicationController
+  #在合同管理上，有两个重要功能需要实现
+  #1.合同状态的管理（创建，变更，放款，显示，合同本金减少，存档，重新激活，）
+  #2.现金流计算与显示
   # GET /contracts
   # GET /contracts.json
   def index

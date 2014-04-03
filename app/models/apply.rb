@@ -4,4 +4,7 @@ class Apply < ActiveRecord::Base
   validates_numericality_of :amount, :currency, :loanType, :processor,  :repaymentType, :term
   validates_presence_of :amount, :currency, :endDate, :loanType, :processor, :repaymentType, :startDate, :term
 
+  def close?
+    self.status == "CLOSED"
+  end
 end
