@@ -2,4 +2,11 @@
 <div class="page-header">
   <h1><%=t '.title', :default => [:'helpers.titles.edit', 'Edit %{model}'], :model => model_class.model_name.human.titleize %></h1>
 </div>
+<% case @contract.status %>
+<%  when  1..2  %>
 <%= render :partial => 'form' %>
+<%  when  6  %>
+    <%= render :partial => 'form_reduce' %>
+<%  else  %>
+    <%= render :partial => 'form_commit' %>
+<% end %>

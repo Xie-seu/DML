@@ -1,6 +1,6 @@
 class ContractsController < ApplicationController
   #在合同管理上，有两个重要功能需要实现
-  #1.合同状态的管理（创建，变更，放款，显示，合同本金减少，存档，重新激活，）
+  #1.合同状态的管理（创建，变更，放款，显示，合同本金减少，存档，重新激活）
   #2.现金流计算与显示
   # GET /contracts
   # GET /contracts.json
@@ -33,8 +33,46 @@ class ContractsController < ApplicationController
       format.html # new.html.erb
       format.json { render json: @contract }
     end
-  end
 
+
+  end
+  #GET /contracts/search
+  #method search only use browser
+  def search
+    @contracts = Contract.where(["browser like ?", "%#{params[:keyword]}%"]).paginate(
+        :page => params[:page]
+    )
+    render  :action => :index
+  end
+  def reduce
+    @contract = Contract.find(params[:id])
+    @contract.status = 6
+    @contract.save
+render :action => :edit
+  end
+  def status_commit
+    @contract = Contract.find(params[:id])
+    @contract.status = 3
+    @contract.save
+    render :action => :edit
+  end
+  def withdraw
+    @contract = Contract.find(params[:id])
+    @contract.status = 8
+    @contract.save
+  end
+  def approve
+    @contract = Contract.find(params[:id])
+    @contract.status = 4
+    @contract.save
+    render :action => :show
+  end
+  def reject
+    @contract = Contract.find(params[:id])
+    @contract.status = 2
+    @contract.save
+    render :action => :show
+  end
   # GET /contracts/1/edit
   def edit
     @contract = Contract.find(params[:id])

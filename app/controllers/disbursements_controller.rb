@@ -1,7 +1,7 @@
 class DisbursementsController < ApplicationController
-  # TODO: 功能，自动扣款标识（目前没有实现方案）.
+  # 功能，自动扣款标识（目前没有实现方案）.
   # GET /disbursements
-  # GET /disbursements.json
+  # GET /disbursements.json#BusinessPartner
   def index
     @disbursements = Disbursement.all
 
@@ -75,4 +75,4 @@ class DisbursementsController < ApplicationController
       format.json { head :no_content }
     end
   end
-end
+

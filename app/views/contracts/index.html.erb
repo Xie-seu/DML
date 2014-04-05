@@ -2,12 +2,17 @@
 <div class="page-header">
   <h1>合同</h1>
 </div>
+<%= form_tag search_contracts_path, :method => :get do %>
+    <%= text_field_tag "keyword" %>
+    <%= submit_tag "Search" %>
+<% end %>
+
 <table class="table table-striped">
   <thead>
     <tr>
       <th><%= model_class.human_attribute_name(:id) %></th>
-      <th>流水号</th>
-      <th>合同号</th>
+      <th><%= model_class.human_attribute_name("流水号") %></th>
+      <th><%= model_class.human_attribute_name("合同号") %></th>
       <th>期限</th>
       <th>用途</th>
       <th>贷款总额</th>
@@ -44,7 +49,7 @@
         <td><%= contract.defaulInt %></td>
         <td><%= contract.credit %></td>
         <td><%= contract.status %></td>
-        <td><%=l contract.created_at %></td>
+        <td><%= contract.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_contract_path(contract), :class => 'btn btn-mini' %>
@@ -58,10 +63,7 @@
     <% end %>
   </tbody>
 </table>
-<%= link_to "合同撤销",
-            :class => 'btn btn-primary' %>
-<%= link_to "合同本金减少",
-            :class => 'btn btn-primary' %>
+
 <%= link_to "新建合同",
             new_contract_path,
             :class => 'btn btn-primary' %>

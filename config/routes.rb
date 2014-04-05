@@ -11,6 +11,17 @@ DML::Application.routes.draw do
   #合同中可以使用checkBox多选BP，和申请一样
   resources :contracts do
     resource :mortgage_loan, controller: 'contract_mortgage_loans'
+    collection do
+      get :search
+    end
+    member do
+
+      get :reduce
+      get :status_commit
+      get :withdraw
+      get :approve
+      get :reject
+    end
   end
 
   root :to =>  'contracts#index'
