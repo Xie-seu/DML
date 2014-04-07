@@ -1,4 +1,4 @@
-<%= simple_form_for @disbursement , :html => { :class => 'form-horizontal' } do |f| %>
+<%= simple_form_for @disbursement,url: contract_disbursement_path(@contract), :html => { :class => 'form-horizontal' } do |f| %>
   <%= f.input :flowType , input_html:{ value: '1'}%>
   <%= f.input :text, placeholder: 'some comments' %>
   <%= f.input :repaymentType, hint: '1 all in once; 2 annually' %>
@@ -12,6 +12,6 @@
   <div class="form-actions">
     <%= f.button :submit, :class => 'btn-primary' %>
     <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
-                disbursements_path, :class => 'btn' %>
+                contract_url(@contract), :class => 'btn' %>
   </div>
 <% end %>

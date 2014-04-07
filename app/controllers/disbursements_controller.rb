@@ -2,26 +2,22 @@ class DisbursementsController < ApplicationController
   # 功能，自动扣款标识（目前没有实现方案）.
   # GET /disbursements
   # GET /disbursements.json#BusinessPartner
+  before_filter :find_contract
   def index
-    @disbursements = Disbursement.all
+    @disbursement = @contract.disbursement
   end
 
   # GET /disbursements/1
   # GET /disbursements/1.json
   def show
-    @disbursement = Disbursement.find(params[:id])
-
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @disbursement }
-    end
+    @disbursement = @contract.disbursement
   end
 
   # GET /disbursements/new
   # GET /disbursements/new.json
 
 def new
-  @disbursement
+  @disbursement = @contract.build_disbursement
   @disbursement.repaymentType = @contract.repaymentType
   @disbursement.postingControl = 1 #自动记账
 
@@ -42,23 +38,19 @@ end
   # POST /disbursements
   # POST /disbursements.json
   def create
-    @disbursement = Disbursement.new(params[:disbursement])
+    @disbursement = @contract.build_disbursement(params[:disbursement])
 
-    respond_to do |format|
-      if @disbursement.save
-        format.html { redirect_to @disbursement, notice: 'Disbursement was successfully created.' }
-        format.json { render json: @disbursement, status: :created, location: @disbursement }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @disbursement.errors, status: :unprocessable_entity }
-      end
+    if @disbursement.save
+      redirect_to contract_disbursement_path(@contract)
+    else
+      render :action => :new
     end
   end
 
   # PUT /disbursements/1
   # PUT /disbursements/1.json
   def update
-    @disbursement = Disbursement.find(params[:id])
+    @disbursement = @contract.disbursement.first
 
     respond_to do |format|
       if @disbursement.update_attributes(params[:disbursement])
@@ -78,7 +70,7 @@ end
     @disbursement.destroy
 
     respond_to do |format|
-      format.html { redirect_to disbursements_url }
+      format.html { redirect_to contract_disbursement_path(@contract) }
       format.json { head :no_content }
     end
   end

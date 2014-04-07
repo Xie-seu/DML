@@ -23,7 +23,7 @@
   <tbody>
     <% @disbursements.each do |disbursement| %>
       <tr>
-        <td><%= link_to disbursement.id, disbursement_path(disbursement) %></td>
+        <td><%= %></td>
         <td><%= disbursement.flowType %></td>
         <td><%= disbursement.text %></td>
         <td><%= disbursement.repaymentType %></td>
@@ -36,17 +36,9 @@
         <td><%= disbursement.grossPayAmount %></td>
         <td><%=l disbursement.created_at %></td>
         <td>
-         <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
-                      disbursement_path(disbursement),
-                      :method => :delete,
-                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
-                      :class => 'btn btn-mini btn-danger' %>
-        </td>
+         </td>
       </tr>
     <% end %>
   </tbody>
 </table>
 
-<%= link_to t('.new', :default => t("helpers.links.new")),
-            new_disbursement_path,
-            :class => 'btn btn-primary' %>
