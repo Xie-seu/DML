@@ -5,17 +5,17 @@ DML::Application.routes.draw do
     resources :contracts
   end
 
-  resources :disbursements
+
 
   resources :applies
   #合同中可以使用checkBox多选BP，和申请一样
   resources :contracts do
+    resources :disbursements, controller: 'disbursements'
     resource :mortgage_loan, controller: 'contract_mortgage_loans'
     collection do
       get :search
     end
     member do
-
       get :reduce
       get :status_commit
       get :withdraw

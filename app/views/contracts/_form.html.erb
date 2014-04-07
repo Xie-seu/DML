@@ -11,7 +11,7 @@
   <%= f.input :contractPeriod %>
   <%= f.input :repaymentType %>
   <%= f.input :interest %>
-  <%= f.input :defaulInt %>
+  <%= f.input :defaulInt ,as: :decimal %>
   <%= f.input :credit %>
   <b>合同状态</b>
     <%= status_in_form(f) %> <span class="help-inline">1 新建状态； 2 编辑状态；3 提交状态 </span>

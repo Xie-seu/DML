@@ -1,22 +1,22 @@
-<h1>合同提交前确认</h1>
+<h1>合同<%= @contract.status == 3 ? "尚未" : "已" %>提交</h1>
 <%= simple_form_for @contract, :html => { :class => 'form-horizontal' } do |f| %>
-  <%= f.input :serialID %>
-  <%= f.input :contractNumber %>
-  <%= f.input :term %>
-  <%= f.input :usePath %>
-  <%= f.input :amount %>
-  <%= f.input :currency %>
-  <b>借款人</b><br/><%= f.select :browser,BusinessPartner.all.map{|c| [c.name, c.id]} %>
-  <%= f.input :startDate %>
-  <%= f.input :endDate %>
-  <%= f.input :contractPeriod %>
-  <%= f.input :repaymentType %>
-  <%= f.input :interest %>
-  <%= f.input :defaulInt %>
-  <%= f.input :credit %>
-  <%= f.input :status %>
+  <%= f.input :serialID ,:disabled => true%>
+  <%= f.input :contractNumber ,:disabled => true%>
+  <%= f.input :term ,:disabled => true%>
+  <%= f.input :usePath ,:disabled => true%>
+  <%= f.input :amount,:disabled => true %>
+  <%= f.input :currency,:disabled => true %>
+  <b>借款人</b><br/><%= f.select :browser,BusinessPartner.all.map{|c| [c.name, c.id]},:disabled => true %>
+  <%= f.input :startDate,:disabled => true %>
+  <%= f.input :endDate,:disabled => true %>
+  <%= f.input :contractPeriod,:disabled => true %>
+  <%= f.input :repaymentType,:disabled => true %>
+  <%= f.input :interest,:disabled => true %>
+  <%= f.input :defaulInt,:disabled => true %>
+  <%= f.input :credit,:disabled => true %>
+  <%= f.input :status,:disabled => true %>
   <div class="form-actions">
-    <%= f.button :submit, :class => 'btn-primary' %>
+    <%= f.button :submit, :class => 'btn-primary' , :disabled => true %>
     <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
                 contracts_path, :class => 'btn' %>
   </div>

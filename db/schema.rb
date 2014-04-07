@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140331085710) do
+ActiveRecord::Schema.define(:version => 20140407063554) do
 
   create_table "applies", :force => true do |t|
     t.integer  "loanType"
@@ -149,6 +149,7 @@ ActiveRecord::Schema.define(:version => 20140331085710) do
     t.float    "grossPayAmount"
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
+    t.integer  "contract_id"
   end
 
   create_table "indentify_infos", :force => true do |t|

@@ -54,12 +54,18 @@
 <%  when  1..2  %>
     <%= link_to "合同提交（待审批）",status_commit_contract_path(@contract), :class => "btn btn-primary"%>
 
-<%  when 3..5  %>
-    <button type="button" class="btn btn-danger" onclick= "contract_withdraw()">撤销合同</button>
+<%  when 3  %>
+    <%= link_to "审批 通过 ",approve_contract_path(@contract), :class => "btn btn-primary"%>
+    <%= link_to "审批 拒绝 （不撤销）",reject_contract_path(@contract), :class => "btn btn-primary"%>
+    <%= link_to "合同撤销",withdraw_contract_path(@contract), :class => "btn btn-danger"%>
 <% when 4 %>
-    <button type="button" class="btn btn-danger" ><%= link_to "合同本金减少", reduce_contract_path(@contract) %></button>
+    <%= link_to "合同本金减少",reduce_contract_path(@contract), :class => "btn btn-primary"%>
+    <%= link_to "合同放款",new_contract_disbursement_path(@contract), :class => "btn btn-primary"%>
+    <%= link_to "合同撤销",withdraw_contract_path(@contract), :class => "btn btn-danger"%>
 <%  when  6  %>
     <%= link_to "合同提交（待审批）",status_commit_contract_path(@contract), :class => "btn btn-primary"%>
+<%  when  8  %>
+    <%= link_to "合同重新激活",reject_contract_path(@contract), :class => "btn btn-primary"%>
 
 <% end %>
         <!-- 点击按钮之后，更新status，并刷新页面-->

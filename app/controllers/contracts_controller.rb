@@ -47,7 +47,7 @@ class ContractsController < ApplicationController
   def reduce
     @contract = Contract.find(params[:id])
     @contract.status = 6
-    @contract.save
+
 render :action => :edit
   end
   def status_commit
@@ -60,6 +60,7 @@ render :action => :edit
     @contract = Contract.find(params[:id])
     @contract.status = 8
     @contract.save
+    render :action => :show
   end
   def approve
     @contract = Contract.find(params[:id])

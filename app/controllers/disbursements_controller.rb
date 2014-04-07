@@ -4,10 +4,6 @@ class DisbursementsController < ApplicationController
   # GET /disbursements.json#BusinessPartner
   def index
     @disbursements = Disbursement.all
-
-      format.html # index.html.erb
-      format.json { render json: @disbursements }
-    end
   end
 
   # GET /disbursements/1
@@ -23,14 +19,25 @@ class DisbursementsController < ApplicationController
 
   # GET /disbursements/new
   # GET /disbursements/new.json
-  def new
-    @disbursement = Disbursement.new
 
-    respond_to do |format|
-      format.html # new.html.erb
-      format.json { render json: @disbursement }
-    end
+def new
+  @disbursement
+  @disbursement.repaymentType = @contract.repaymentType
+  @disbursement.postingControl = 1 #自动记账
+
+  if @contract.repaymentType == 2
+    @disbursement.grossPayAmount = @contract.amount/12
+    @disbursement.currentPayment = @disbursement.grossPayAmount
+    @disbursement.nominalPayment = @disbursement.grossPayAmount
+  else
+    @disbursement.grossPayAmount = @contract.amount
+    @disbursement.currentPayment = @disbursement.grossPayAmount
+    @disbursement.nominalPayment = @disbursement.grossPayAmount
   end
+  @disbursement.disbursementRate = 1#支付比率默认为1
+  @disbursement.disbursementInt = 0#支付利率默认为0
+end
+
 
   # POST /disbursements
   # POST /disbursements.json
@@ -75,4 +82,7 @@ class DisbursementsController < ApplicationController
       format.json { head :no_content }
     end
   end
-
+  def find_contract
+    @contract = Contract.find(params[:contract_id])
+  end
+  end
