@@ -5,7 +5,7 @@ class Condition < ActiveRecord::Base
   #资料校验
   validates_presence_of :commitCapital,:repaymentType,:disbursementRate, :discountType, :fixedFrom , :fixedUntil, :termStart, :termEnd
   validates_numericality_of  :commitCapital,:repaymentType,:disbursementRate, :discountType
-
+  accepts_nested_attributes_for :condition_items, :allow_destroy => true
 
 
 end

@@ -1,0 +1,55 @@
+<ul class="nav nav-tabs">
+  <li class="active"><a href="#home" data-toggle="tab">基本信息</a></li>
+  <li><a href="#profile" data-toggle="tab">贷款信息</a></li>
+  <li><a href="#messages" data-toggle="tab">金融条件项</a></li>
+  <li><a href="#settings" data-toggle="tab">其他信息</a></li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane fade in active" id="home">  <div class="span5">
+    <%= simple_form_for set_contract(@contract),:url => contracts_path ,:html => { :class => 'form-horizontal' } do |f| %>
+        <%= f.input :serialID %>
+        <%= f.input :contractNumber %>
+        <%= f.input :term %>
+        <%= f.input :usePath %>
+        <%= f.input :amount %>
+        <%= f.input :currency %>
+        <b>借款人</b><br/><%= f.select :browser,BusinessPartner.all.map{|c| [c.name, c.id]} %>
+        <%= f.input :startDate %>
+        <%= f.input :endDate %>
+        <%= f.input :contractPeriod %>
+        <%= f.input :repaymentType %>
+        <%= f.input :interest %>
+        <%= f.input :defaulInt ,as: :decimal %>
+        <%= f.input :credit %>
+        <b>合同状态</b>
+        <%= status_in_form(f) %> <span class="help-inline">1 新建状态； 2 编辑状态；3 提交状态 </span>
+        <br/></div>
+        </div>
+
+        <div class="tab-pane fade" id="profile">
+          <% f.simple_fields_for :mortgage_loan do |loan_form| %>
+              <%= loan_form.input :loanType %>
+              <%= loan_form.input :loanClass%>
+          <% end %>
+        </div>
+        <div class="tab-pane fade" id="messages">...</div>
+        <div class="tab-pane fade" id="settings">...</div>
+        </div>
+
+
+        <div class="span4">
+          <h6>贷款信息</h6>
+        </div>
+        <div class="span4">
+          <h6>金融条件</h6>
+        </div>
+
+        <div class="form-actions">
+          <%= f.button :submit, :class => 'btn-primary' %>
+          <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                      contracts_path, :class => 'btn' %>
+        </div>
+
+    <% end %>

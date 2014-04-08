@@ -77,13 +77,12 @@ render :action => :edit
   # GET /contracts/1/edit
   def edit
     @contract = Contract.find(params[:id])
-  end
+   end
 
   # POST /contracts
   # POST /contracts.json
   def create
     @contract = Contract.new(params[:contract])
-
     respond_to do |format|
       if @contract.save
         format.html { redirect_to @contract, notice: 'Contract was successfully created.' }
@@ -99,7 +98,6 @@ render :action => :edit
   # PUT /contracts/1.json
   def update
     @contract = Contract.find(params[:id])
-
     respond_to do |format|
       if @contract.update_attributes(params[:contract])
         format.html { redirect_to @contract, notice: 'Contract was successfully updated.' }

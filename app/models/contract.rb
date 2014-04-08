@@ -3,18 +3,18 @@ class Contract < ActiveRecord::Base
   #browser = businessPartner_id
   #contractNumber = id
   before_validation :setup_default
-  attr_accessible :amount, :browser, :contractNumber, :contractPeriod, :credit, :currency, :defaulInt, :endDate, :interest, :repaymentType, :serialID, :startDate, :status, :term, :usePath
+  attr_accessible :mortgage_loan_attributes,:condition_attributes,:amount, :browser, :contractNumber, :contractPeriod, :credit, :currency, :defaulInt, :endDate, :interest, :repaymentType, :serialID, :startDate, :status, :term, :usePath
   has_many :contract_business_partnerships, :dependent =>  :destroy
   has_many :business_partners , :through => :contract_business_partnerships
   has_one :mortgage_loan, :dependent =>  :destroy
   has_one :condition, :dependent =>  :destroy
   has_one :disbursement
   validates_numericality_of :amount, :browser, :contractNumber, :currency, :defaulInt, :interest, :repaymentType, :status, :term, :message => 'must been filled & must be numerical '
-
+  validates_inclusion_of :term, :in => [1,2,3,4]
 #合同的八种状态
   validates_inclusion_of :status, :in => [1,2,3,4,5,6,7,8]
-
-  accepts_nested_attributes_for :mortgage_loan
+  validates_associated :mortgage_loan
+  accepts_nested_attributes_for :mortgage_loan,:allow_destroy => true, :reject_if => :all_blank
   validates_associated :condition
   accepts_nested_attributes_for :condition ,
                                 :reject_if => :all_blank,

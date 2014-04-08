@@ -26,14 +26,15 @@
       <th>基础利息</th>
       <th>授信</th>
       <th>合同状态</th>
-      <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <th>创建时间</th>
+      <th>拓展信息</th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
   </thead>
   <tbody>
     <% @contracts.each do |contract| %>
       <tr>
-        <td><%= link_to contract.id, contract_path(contract) %></td>
+        <td><%= link_to contract.id, contract_path(contract),:class => "btn btn-default" %></td>
         <td><%= contract.serialID %></td>
         <td><%= contract.contractNumber %></td>
         <td><%= contract.term %></td>
@@ -49,7 +50,10 @@
         <td><%= contract.defaulInt %></td>
         <td><%= contract.credit %></td>
         <td><%= contract.status %></td>
-        <td><%= contract.created_at %></td>
+        <td><%= contract.created_at.to_date %></td>
+        <td ><%= link_to "Mortgage_loan",
+                        contract_mortgage_loan_url(contract),
+                        :class => 'btn btn-default' %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_contract_path(contract), :class => 'btn btn-mini' %>
@@ -58,9 +62,8 @@
                       :method => :delete,
                       :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
                       :class => 'btn btn-mini btn-danger' %>
-          <%= link_to "Mortgage_loan",
-                      contract_mortgage_loan_url(contract),
-                      :class => 'btn btn-primary' %></td>
+          </td>
+
       </tr>
     <% end %>
   </tbody>
