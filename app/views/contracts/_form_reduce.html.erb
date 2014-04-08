@@ -1,23 +1,64 @@
-<h1>合同本金减少</h1>
-<%= simple_form_for @contract, :html => { :class => 'form-horizontal' } do |f| %>
-  <%= f.input :serialID ,:disabled => true%>
-  <%= f.input :contractNumber,:disabled => true %>
-  <%= f.input :term,:disabled => true %>
-  <%= f.input :usePath,:disabled => true %>
-  <%= f.input :amount,label:"贷款总额" %>
-  <%= f.input :currency ,:disabled => true%>
-  <b>借款人</b><br/><%= f.select :browser,BusinessPartner.all.map{|c| [c.name, c.id]},:disabled => true %>
-  <%= f.input :startDate,:disabled => true %>
-  <%= f.input :endDate,:disabled => true %>
-  <%= f.input :contractPeriod ,:disabled => true%>
-  <%= f.input :repaymentType ,:disabled => true%>
-  <%= f.input :interest,:disabled => true %>
-  <%= f.input :defaulInt,:disabled => true %>
-  <%= f.input :credit ,:disabled => true%>
-  <%= f.input :status ,:disabled => true%>
-  <div class="form-actions">
-    <%= f.button :submit, :class => 'btn-primary' %>
-    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
-                contracts_path, :class => 'btn' %>
-  </div>
-<% end %>
+<h1>合同<%= @contract.status == 3 ? "尚未" : "已" %>提交</h1>
+
+<ul class="nav nav-tabs">
+  <li class="active"><a href="#home" data-toggle="tab">基本信息</a></li>
+  <li><a href="#profile" data-toggle="tab">贷款信息</a></li>
+  <li><a href="#messages" data-toggle="tab">金融条件项</a></li>
+  <li><a href="#settings" data-toggle="tab">其他信息</a></li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane fade in active" id="home">  <div class="span5">
+    <%= simple_form_for set_contract(@contract), :html => { :class => 'form-horizontal' } ,:method => :put do |f| %>
+        <%= f.input :serialID ,:disabled => true%>
+        <%= f.input :contractNumber ,:disabled => true%>
+        <%= f.input :term ,:disabled => true%>
+        <%= f.input :usePath ,:disabled => true%>
+        <%= f.input :amount %><comment>唯一可修改项</comment>
+        <%= f.input :currency,:disabled => true %>
+        <b>借款人</b><br/><%= find_BP(@contract) %>
+        <%= f.input :startDate,:disabled => true %>
+        <%= f.input :endDate,:disabled => true %>
+        <%= f.input :contractPeriod,:disabled => true %>
+        <%= f.input :repaymentType,:disabled => true %>
+        <%= f.input :interest,:disabled => true %>
+        <%= f.input :defaulInt,:disabled => true %>
+        <%= f.input :credit,:disabled => true %>
+        <%= f.input :status,:disabled => true %><span class="help-inline">1.新建状态； 2 编辑状态；3 提交状态 </span>
+        <br/></div>
+        </div>
+        <div class="tab-pane fade" id="profile">
+          <%= f.simple_fields_for :mortgage_loan do |loan_form| %>
+              <%= loan_form.input :loanType,:label => "贷款类型" ,:disabled => true%>
+              <%= loan_form.input :loanClass,:disabled => true%>
+              <%= loan_form.input :IPDcontrol ,:disabled => true%>
+              <%= loan_form.input :disAcc , :as => :decimal,:disabled => true%>
+              <%= loan_form.input :FinProj,:disabled => true %>
+              <b>利息计算方式  </b><%= loan_form.select :interestCal, [1,2,3] %>
+              <%= loan_form.input :contracCurrency, :hint => "equals @contract.currency",:disabled => true%>
+              <%= loan_form.input :term, :hint => "equals @contract.term",:disabled => true %>
+          <% end %>
+        </div>
+
+        <div class="tab-pane fade" id="messages">
+          <%= f.simple_fields_for :condition do |condition| %>
+              <%= condition.input :commitCapital,:disabled => true%>
+              <%= condition.input :repaymentType, :hint => "equals @contract.repaymentType",:disabled => true%>
+              <%= condition.input :disbursementRate, :as => :decimal,:disabled => true %>
+              <%= condition.input :discountType,:disabled => true %>
+              <%= condition.input :fixedFrom,:disabled => true %>
+              <%= condition.input :fixedUntil,:disabled => true %>
+              <%= condition.input :termStart,:disabled => true %>
+              <%= condition.input :termEnd,:disabled => true %>
+          <% end %></div>
+        <div class="tab-pane fade" id="settings">其他信息包括了贷款相关人员信息，贷款人，借款人信息，附录，等附加信息</div>
+        </div>
+        <div class="form-actions">
+          <%= f.button :submit, :class => 'btn-primary' %>
+          <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                      contracts_path, :class => 'btn' %>
+        </div>
+
+    <% end %>
+

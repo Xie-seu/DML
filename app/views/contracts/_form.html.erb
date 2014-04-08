@@ -36,7 +36,7 @@
         <%= loan_form.input :FinProj %>
         <b>利息计算方式  </b><%= loan_form.select :interestCal, [1,2,3] %>
         <%= loan_form.input :contracCurrency, :hint => "equals @contract.currency",:disabled => true%>
-        <%= loan_form.input :term, :hint => "equals @contract.term" %>
+        <%= loan_form.input :term, :hint => "equals @contract.term",:readonly => true  %>
     <% end %>
   </div>
 

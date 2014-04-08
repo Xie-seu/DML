@@ -33,4 +33,7 @@ module ContractsHelper
     @contract.mortgage_loan.term = @contract.term
     contract
   end
+  def find_BP(contract)
+    link_to "#{BusinessPartner.find(contract.browser).name}",business_partner_path(contract.browser)
+  end
 end
