@@ -38,11 +38,12 @@ class ContractsController < ApplicationController
   end
   #GET /contracts/search
   #method search only use browser
-  def search
-    @contracts = Contract.where(["browser like ?", "%#{params[:keyword]}%"]).paginate(
+  def search_by_browser
+    @contracts = Contract.where(["browser like ?", "%#{params[:browser]}%"]).paginate(
         :page => params[:page]
     )
     render  :action => :index
+
   end
   def reduce
     @contract = Contract.find(params[:id])

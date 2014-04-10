@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  flowNum: 1
+  flowName: MyString
+
+two:
+  flowNum: 1
+  flowName: MyString

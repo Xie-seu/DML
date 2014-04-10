@@ -32,6 +32,7 @@ def new
   end
   @disbursement.disbursementRate = 1#支付比率默认为1
   @disbursement.disbursementInt = 0#支付利率默认为0
+
 end
 
 

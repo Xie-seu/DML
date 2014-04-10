@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140407063554) do
+ActiveRecord::Schema.define(:version => 20140410053908) do
 
   create_table "applies", :force => true do |t|
     t.integer  "loanType"
@@ -49,8 +49,18 @@ ActiveRecord::Schema.define(:version => 20140407063554) do
     t.integer  "flowType"
     t.integer  "currency"
     t.float    "amount"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",                  :null => false
+    t.datetime "updated_at",                  :null => false
+    t.date     "calcuDate"
+    t.string   "flowName"
+    t.float    "cashAmount"
+    t.integer  "PC"
+    t.float    "basisAmount"
+    t.decimal  "centage"
+    t.date     "caluFrom"
+    t.date     "caluUntil"
+    t.integer  "dayNum",      :default => 30
+    t.date     "dueDate"
   end
 
   create_table "collaterals", :force => true do |t|
@@ -152,6 +162,13 @@ ActiveRecord::Schema.define(:version => 20140407063554) do
     t.integer  "contract_id"
   end
 
+  create_table "flow_types", :force => true do |t|
+    t.integer  "flowNum"
+    t.string   "flowName"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "indentify_infos", :force => true do |t|
     t.string   "indentify"
     t.integer  "legelForm"
@@ -176,6 +193,12 @@ ActiveRecord::Schema.define(:version => 20140407063554) do
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
     t.integer  "contract_id"
+  end
+
+  create_table "pcs", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "repayment_infos", :force => true do |t|

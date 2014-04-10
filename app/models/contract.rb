@@ -9,6 +9,7 @@ class Contract < ActiveRecord::Base
   has_one :mortgage_loan, :dependent =>  :destroy
   has_one :condition, :dependent =>  :destroy
   has_one :disbursement
+  has_many :cash_flows
   validates_numericality_of :amount, :browser, :contractNumber, :currency, :defaulInt, :interest, :repaymentType, :status, :term, :message => 'must been filled & must be numerical '
   validates_inclusion_of :term, :in => [1,2,3,4]
 #合同的八种状态

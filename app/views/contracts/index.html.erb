@@ -2,11 +2,11 @@
 <div class="page-header">
   <h1>合同</h1>
 </div>
-<%= form_tag search_contracts_path, :method => :get do %>
-    <%= text_field_tag "keyword" %>
+<%= form_tag search_by_browser_contracts_path, :method => :get do %>
+
+    <%= text_field_tag "browser" %>
     <%= submit_tag "Search" %>
 <% end %>
-
 <table class="table table-striped">
   <thead>
     <tr>
