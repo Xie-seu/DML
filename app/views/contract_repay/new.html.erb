@@ -1,0 +1,11 @@
+<%= simple_form_for @repayment,:url => contract_requirements_path(@contract), :html => { :class => 'form-horizontal'} do |f| %>
+    <%= f.input :cash_amount%>
+    <%= f.input :execute_time%>
+    <%= f.input :comment %>
+
+    <div class="form-actions">
+      <%= f.button :submit, :class => 'btn-primary' %>
+      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                  contract_path(@contract ), :class => 'btn' %>
+    </div>
+<% end %>

@@ -2,6 +2,9 @@
 <div class="page-header">
   <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
 </div>
+<%= @apply.endDate = @apply.endDate.at_beginning_of_month %>
+<%= @apply.endDate = @apply.endDate.next_month %>
+
 
 <dl class="dl-horizontal">
   <dt><strong><%= model_class.human_attribute_name(:loanType) %>:</strong></dt>
@@ -25,7 +28,6 @@
   <dt><strong><%= model_class.human_attribute_name(:business_partner_id) %>:</strong></dt>
   <dd><%= @apply.business_partner_id %></dd>
 </dl>
-
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
               applies_path, :class => 'btn'  %>

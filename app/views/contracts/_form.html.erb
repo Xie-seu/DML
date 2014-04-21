@@ -4,22 +4,20 @@
   <li><a href="#messages" data-toggle="tab">金融条件项</a></li>
   <li><a href="#settings" data-toggle="tab">其他信息</a></li>
 </ul>
-
 <!-- Tab panes -->
 <div class="tab-content">
   <div class="tab-pane fade in active" id="home">  <div class="span5">
-    <%= simple_form_for set_contract(@contract), :html => { :class => 'form-horizontal' } ,:method => :put do |f| %>
-        <%= f.input :serialID, :disabled => true %>
-        <%= f.input :contractNumber, :disabled => true %>
-        <%= f.input :term %>
-        <%= f.input :usePath %>
+    <% @contract == nil ? set_contract_init(@contract) : set_contract(@contract) %>
+    <%= simple_form_for @contract,:html => { :class => 'form-horizontal' }  do |f| %>
+        <b>贷款周期长度</b><%= f.select :term, [1,2,3] %><span class="help-inline">1.短期（1年以内）； 2 中期（1-5年）；3 中长期（5年以上） </span>
+        <%= f.input :usePath, :label => "用途" %>
         <%= f.input :amount %>
         <%= f.input :currency %>
         <b>借款人</b><br/><%= f.select :browser,BusinessPartner.all.map{|c| [c.name, c.id]} %>
         <%= f.input :startDate %>
         <%= f.input :endDate %>
         <%= f.input :contractPeriod %>
-        <%= f.input :repaymentType %>
+        <b>还款方式</b><%= f.select :repaymentType, [1,2,3,4,5,6] %>
         <%= f.input :interest %>
         <%= f.input :defaulInt ,as: :decimal %>
         <%= f.input :credit %>
@@ -30,18 +28,20 @@
   <div class="tab-pane fade" id="profile">
     <%= f.simple_fields_for :mortgage_loan do |loan_form| %>
         <%= loan_form.input :loanType,:label => "贷款类型" %>
-        <%= loan_form.input :loanClass%>
+        <%= loan_form.input :loanClass %>
         <%= loan_form.input :IPDcontrol %>
         <%= loan_form.input :disAcc , :as => :decimal%>
         <%= loan_form.input :FinProj %>
         <b>利息计算方式  </b><%= loan_form.select :interestCal, [1,2,3] %>
-        <%= loan_form.input :contracCurrency, :hint => "equals @contract.currency",:disabled => true%>
+        <%= loan_form.input :contracCurrency, :hint => "equals @contract.currency",:readonly => true%>
         <%= loan_form.input :term, :hint => "equals @contract.term",:readonly => true  %>
     <% end %>
   </div>
-
   <div class="tab-pane fade" id="messages">
+      <div class="row-fluid">
+        <div class="col-lg-4">
     <%= f.simple_fields_for :condition do |condition| %>
+        贷款条件信息
         <%= condition.input :commitCapital%>
         <%= condition.input :repaymentType, :hint => "equals @contract.repaymentType"%>
         <%= condition.input :disbursementRate, :as => :decimal %>
@@ -51,16 +51,34 @@
         <%= condition.input :termStart %>
         <%= condition.input :termEnd %>
     <% end %></div>
-  <div class="tab-pane fade" id="settings">...</div>
+
+        <div class="col-lg-4">
+        <%= f.simple_fields_for :condition_items  do |condition_items| %>
+            <p>
+              贷款条件项
+              <%= condition_items.input :effFrom %>
+              <%= condition_items.input :condType %>
+              <%= condition_items.input :repayPercent %>
+              <%= condition_items.input :conditionAmount %>
+              <%= condition_items.input :currency %>
+              <%= condition_items.input :dueOn %>
+              <%= condition_items.input :calcDate %>
+              <%= condition_items.input :description %>
+              <% unless condition_items.object.new_record? %>
+                  <%= condition_items.label :_destroy, 'Remove:' %>
+                  <%= condition_items.check_box :_destroy %>
+              <% end %>
+            </p></div>
+        <% end %></div>
+
 </div>
-
-
-
-
-  <div class="form-actions">
+  <div class="tab-pane fade" id="settings">...</div>
+  </div>
+<div class="form-actions">
     <%= f.button :submit, :class => 'btn-primary' %>
     <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
                 contracts_path, :class => 'btn' %>
+
   </div>
 
-<% end %>
+    <% end %>

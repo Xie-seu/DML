@@ -1,3 +1,5 @@
+require 'cash_flow_handle'
+
 class DisbursementsController < ApplicationController
   # 功能，自动扣款标识（目前没有实现方案）.
   # GET /disbursements
@@ -10,39 +12,53 @@ class DisbursementsController < ApplicationController
   # GET /disbursements/1
   # GET /disbursements/1.json
   def show
-    @disbursement = @contract.disbursement
+    if  @contract.disbursement
+      @disbursement = @contract.disbursement
+    end
   end
-
   # GET /disbursements/new
   # GET /disbursements/new.json
 
 def new
-  @disbursement = @contract.build_disbursement
-  @disbursement.repaymentType = @contract.repaymentType
-  @disbursement.postingControl = 1 #自动记账
-
-  if @contract.repaymentType == 2
-    @disbursement.grossPayAmount = @contract.amount/12
-    @disbursement.currentPayment = @disbursement.grossPayAmount
-    @disbursement.nominalPayment = @disbursement.grossPayAmount
+  if @contract.disbursement
+    @contract.status = 5
+    @contract.save
+    redirect_to contract_url(@contract.id)
   else
-    @disbursement.grossPayAmount = @contract.amount
-    @disbursement.currentPayment = @disbursement.grossPayAmount
-    @disbursement.nominalPayment = @disbursement.grossPayAmount
-  end
-  @disbursement.disbursementRate = 1#支付比率默认为1
-  @disbursement.disbursementInt = 0#支付利率默认为0
+    @disbursement = @contract.build_disbursement
+    @disbursement.repaymentType = @contract.repaymentType
+    @disbursement.postingControl = 1 #自动记账
+
+    if @contract.repaymentType == 2
+      @disbursement.grossPayAmount = @contract.amount/12
+      @disbursement.currentPayment = @disbursement.grossPayAmount
+      @disbursement.nominalPayment = @disbursement.grossPayAmount
+    else
+      @disbursement.grossPayAmount = @contract.amount
+      @disbursement.currentPayment = @disbursement.grossPayAmount
+      @disbursement.nominalPayment = @disbursement.grossPayAmount
+    end
+    @contract.status = 5
+    @disbursement.disbursementRate = @contract.condition.disbursementRate
+    @disbursement.disbursementInt = 0#支付利率默认为0
+
 
 end
-
+end
 
   # POST /disbursements
   # POST /disbursements.json
   def create
     @disbursement = @contract.build_disbursement(params[:disbursement])
-
     if @disbursement.save
-      redirect_to contract_disbursement_path(@contract)
+      @contract.status = 5
+      @contract.save
+      #fixme 现金流在这里被创建.有一笔资金被支付
+
+      @handler = ContractCashFlowControl::CashFlowControl.new
+      @handler.create_cf(@contract)
+
+      redirect_to contract_cash_flows_path(@contract)
     else
       render :action => :new
     end
@@ -71,11 +87,11 @@ end
     @disbursement.destroy
 
     respond_to do |format|
-      format.html { redirect_to contract_disbursement_path(@contract) }
+      format.html { redirect_to contracts_url }
       format.json { head :no_content }
     end
   end
   def find_contract
     @contract = Contract.find(params[:contract_id])
   end
-  end
+end

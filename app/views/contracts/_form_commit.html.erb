@@ -40,7 +40,6 @@
               <%= loan_form.input :term, :hint => "equals @contract.term",:disabled => true %>
           <% end %>
         </div>
-
         <div class="tab-pane fade" id="messages">
           <%= f.simple_fields_for :condition do |condition| %>
               <%= condition.input :commitCapital,:disabled => true%>

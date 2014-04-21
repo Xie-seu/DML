@@ -10,6 +10,7 @@ DML::Application.routes.draw do
     resources :cash_flows, controller: 'contract_cash_flow'
     resource :disbursement, controller: 'disbursements'
     resource :mortgage_loan, controller: 'contract_mortgage_loans'
+    resources :requirements, only: [:index,:show, :new, :create], controller: 'contract_repay'
     collection do
       get :search_by_browser
     end

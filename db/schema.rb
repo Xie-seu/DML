@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140410053908) do
+ActiveRecord::Schema.define(:version => 20140419091359) do
 
   create_table "applies", :force => true do |t|
     t.integer  "loanType"
@@ -47,7 +47,7 @@ ActiveRecord::Schema.define(:version => 20140410053908) do
 
   create_table "cash_flows", :force => true do |t|
     t.integer  "flowType"
-    t.integer  "currency"
+    t.integer  "status"
     t.float    "amount"
     t.datetime "created_at",                  :null => false
     t.datetime "updated_at",                  :null => false
@@ -61,6 +61,9 @@ ActiveRecord::Schema.define(:version => 20140410053908) do
     t.date     "caluUntil"
     t.integer  "dayNum",      :default => 30
     t.date     "dueDate"
+    t.integer  "contract_id"
+    t.string   "PCname"
+    t.boolean  "creditSide"
   end
 
   create_table "collaterals", :force => true do |t|
@@ -86,12 +89,18 @@ ActiveRecord::Schema.define(:version => 20140410053908) do
   add_index "communication_infos", ["business_partner_id"], :name => "index_communication_infos_on_BusinessPartner_id"
   add_index "communication_infos", ["business_partner_id"], :name => "index_communication_infos_on_business_partner_id"
 
+  create_table "cond_types", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "condition_items", :force => true do |t|
     t.integer  "condType"
     t.date     "effFrom"
-    t.decimal  "repayPercent"
+    t.decimal  "repayPercent",    :precision => 5, :scale => 5
     t.float    "conditionAmount"
-    t.integer  "currency"
+    t.integer  "currency",                                      :default => 1
     t.integer  "IS"
     t.integer  "PF"
     t.integer  "Frg"
@@ -100,22 +109,22 @@ ActiveRecord::Schema.define(:version => 20140410053908) do
     t.date     "calcDate"
     t.integer  "MC"
     t.string   "description"
-    t.integer  "condition_id"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
+    t.integer  "contract_id"
+    t.datetime "created_at",                                                   :null => false
+    t.datetime "updated_at",                                                   :null => false
   end
 
   create_table "conditions", :force => true do |t|
     t.integer  "commitCapital"
-    t.integer  "repaymentType"
-    t.decimal  "disbursementRate"
-    t.integer  "discountType"
+    t.integer  "repaymentType",                                  :default => 1
+    t.decimal  "disbursementRate", :precision => 5, :scale => 4
+    t.integer  "discountType",                                   :default => 1
     t.date     "fixedFrom"
     t.date     "fixedUntil"
     t.date     "termStart"
     t.date     "termEnd"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at",                                                    :null => false
+    t.datetime "updated_at",                                                    :null => false
     t.integer  "contract_id"
   end
 
@@ -132,18 +141,20 @@ ActiveRecord::Schema.define(:version => 20140410053908) do
     t.integer  "term"
     t.string   "usePath"
     t.float    "amount"
-    t.integer  "currency"
+    t.integer  "currency",                                     :default => 1
     t.integer  "browser"
     t.date     "startDate"
     t.date     "endDate"
     t.time     "contractPeriod"
-    t.integer  "repaymentType"
-    t.float    "interest"
-    t.float    "defaulInt"
+    t.integer  "repaymentType",                                :default => 1
+    t.decimal  "interest",                                     :default => 5.5
+    t.decimal  "defaulInt",      :precision => 5, :scale => 4, :default => 5.5
     t.string   "credit"
     t.integer  "status"
-    t.datetime "created_at",     :null => false
-    t.datetime "updated_at",     :null => false
+    t.datetime "created_at",                                                    :null => false
+    t.datetime "updated_at",                                                    :null => false
+    t.float    "repay_amount"
+    t.float    "open_item"
   end
 
   create_table "disbursements", :force => true do |t|
@@ -181,17 +192,17 @@ ActiveRecord::Schema.define(:version => 20140410053908) do
   add_index "indentify_infos", ["business_partner_id"], :name => "index_indentify_infos_on_business_partner_id"
 
   create_table "mortgage_loans", :force => true do |t|
-    t.integer  "loanType"
-    t.integer  "loanClass"
-    t.integer  "IPDcontrol"
-    t.integer  "disAcc"
-    t.integer  "FinProj"
+    t.integer  "loanType",        :default => 1
+    t.integer  "loanClass",       :default => 0
+    t.integer  "IPDcontrol",      :default => 1
+    t.integer  "disAcc",          :default => 1
+    t.integer  "FinProj",         :default => 0
     t.integer  "interestCal"
     t.integer  "contracCurrency"
     t.integer  "term"
     t.integer  "condition_id"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
     t.integer  "contract_id"
   end
 
@@ -212,5 +223,20 @@ ActiveRecord::Schema.define(:version => 20140410053908) do
 
   add_index "repayment_infos", ["business_partner_id"], :name => "index_repayment_infos_on_BusinessPartner_id"
   add_index "repayment_infos", ["business_partner_id"], :name => "index_repayment_infos_on_business_partner_id"
+
+  create_table "repayment_types", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "repayments", :force => true do |t|
+    t.float    "cash_amount",  :default => 0.0
+    t.date     "execute_time"
+    t.string   "comment"
+    t.datetime "created_at",                    :null => false
+    t.datetime "updated_at",                    :null => false
+    t.integer  "contract_id"
+  end
 
 end

@@ -40,7 +40,7 @@
 
   <!-- Fixed navbar -->
   <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
+    <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="sr-only">Toggle navigation</span>
@@ -52,47 +52,65 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><%= link_to "申请", applies_url %></li>
-          <li><%= link_to "合同", contracts_url %></li>
-          <li><%= link_to "商业伙伴", business_partners_path %></li>
+          <li class="active"><a href="#">首页</a></li>
+          <li><%= link_to "贷款申请", applies_url %></li>
+         <li><%= link_to "商业伙伴", business_partners_path %></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">合同类 <b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
+              <li><%= link_to "查找",contracts_path %></li>
+              <li><%= link_to "新建", new_contract_path %></li>
+              <li><a href="#">审批（固定权限用户可见）</a></li>
+              <li><a href="#">放款（固定权限用户可见）</a></li>
               <li class="divider"></li>
-              <li class="dropdown-header">Nav header</li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+              <li class="dropdown-header">其他</li>
+              <li><a href="#">后台数据库连接</a></li>
+              <li><a href="#">存款系统链接</a></li>
             </ul>
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="../navbar/">Default</a></li>
-          <li><a href="../navbar-static-top/">Static top</a></li>
-          <li class="active"><a href="./">Fixed top</a></li>
+          <li><a href="../navbar/">须知</a></li>
+          <li><a href="../navbar-static-top/">帮助</a></li>
+          <li class="active"><a href="./">登出</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
   </div>
 
-  <div class="container">
-          <div class="controls-row">
+  <div class="container-fluid">
+          <div class="row-fluid">
+            <div class="col-lg-2 fluid">
+              <div class="well sidebar-nav">
+                <ul class="nav nav-list">
+                  <li class="nav-header">合同类</li>
+                  <li class="active"><a href="#">合同查找</a></li>
+                  <li><a href="#">合同管理</a></li>
+                  <li><a href="#">还款</a></li>
+                  <li><a href="#">现金流查看</a></li>
+                  <li class="nav-header">后台类</li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#">SQL</a></li>
+                  <li><a href="#">MySQL</a></li>
+                  <li><a href="#">PostgreSQL</a></li>
+                  <li><a href="#">MongoDB</a></li>
+                </ul>
+              </div><!--/.well -->
+            </div><!--/span-->
 
 
-          <div class="span9">
+            <div class="col-md-7">
             <br>
             <%= bootstrap_flash %>
             <%= yield %>
           </div>
 
-      <footer>
-        <p>&copy; Company 2014</p>
-      </footer>
-
+            <footer>
+              <p>&copy; Company 2014</p>
+            </footer>
     </div> <!-- /container -->
+
 </div>
+
   </body>
 </html>

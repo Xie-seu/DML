@@ -1,9 +1,12 @@
+require 'cash_flow_handle'
 class ContractsController < ApplicationController
   #在合同管理上，有两个重要功能需要实现
   #1.合同状态的管理（创建，变更，放款，显示，合同本金减少，存档，重新激活）
   #2.现金流计算与显示
+  #3, TODO 合同周期管理，fixedFrom 和 termFrom， Term与 Condition
   # GET /contracts
   # GET /contracts.json
+  include ContractsControl
   def index
     @contracts = Contract.all
 
@@ -29,12 +32,21 @@ class ContractsController < ApplicationController
   def new
     @contract = Contract.new
 
+  end
+  # POST /contracts
+  # POST /contracts.json
+  def create
+    @contract = Contract.new(params[:contract])
+
     respond_to do |format|
-      format.html # new.html.erb
-      format.json { render json: @contract }
+      if @contract.save
+        format.html { redirect_to @contract, notice: 'Contract was successfully created.' }
+        format.json { render json: @contract, status: :created, location: @contract }
+      else
+        format.html { render action: "new" }
+        format.json { render json: @contract.errors, status: :unprocessable_entity }
+      end
     end
-
-
   end
   #GET /contracts/search
   #method search only use browser
@@ -48,8 +60,7 @@ class ContractsController < ApplicationController
   def reduce
     @contract = Contract.find(params[:id])
     @contract.status = 6
-
-render :action => :edit
+    render :action => :edit
   end
   def status_commit
     @contract = Contract.find(params[:id])
@@ -80,20 +91,7 @@ render :action => :edit
     @contract = Contract.find(params[:id])
    end
 
-  # POST /contracts
-  # POST /contracts.json
-  def create
-    @contract = Contract.new(params[:contract])
-    respond_to do |format|
-      if @contract.save
-        format.html { redirect_to @contract, notice: 'Contract was successfully created.' }
-        format.json { render json: @contract, status: :created, location: @contract }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @contract.errors, status: :unprocessable_entity }
-      end
-    end
-  end
+
 
   # PUT /contracts/1
   # PUT /contracts/1.json
