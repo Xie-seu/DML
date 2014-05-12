@@ -21,8 +21,7 @@ class CashFlow < ActiveRecord::Base
                         :calcuDate,
                         :flowType,
                         :flowName,
-                        :status,
-                        :creditSide
+                        :status
   validates_inclusion_of :status, :in => [0,1]
 
 end

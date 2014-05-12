@@ -1,10 +1,52 @@
-<% @cash_flows.each do |cash_flow| %>
-   <%= cash_flow.amount %>
-<% end%>
-<br>谢开浪好帅
-  <%= @contract %>
-<%= @cash_flows %><b>
-<%= @cash_flow_0%>    <br>
 
-谢开浪好俊
-<%= CashFlow.first %></b>
+
+
+
+<h2>现金流表</h2>
+
+<table class="table">
+
+  <thead>
+  <tr>
+    <th>到期日</th>
+    <th>计算日期</th>
+    <th>流类</th>
+    <th>名称</th>
+    <th>计划的/实际的</th>
+    <th>头寸货币金额</th>
+    <th>PC</th>
+    <th>基本金额</th>
+    <th>百分率</th>
+    <th>利息计算方式</th>
+    <th>计算自</th>
+    <th>计算到</th>
+    <th>天数</th>
+    <th>D/C</th>
+  </tr>
+  </thead>
+  <tbody>
+
+  <% @cash_flows.each do |cash_flow| %>
+  <tr>
+    <%  %>
+    <td><%= cash_flow.calcuDate %></td>
+    <td><%= cash_flow.calcuDate %> </td>
+    <td><%= cash_flow.flowType %></td>
+    <td><%= cash_flow.flowName %></td>
+    <td><%= cash_flow.status %></td>
+    <td><%= cash_flow.amount %></td>
+    <td><%= cash_flow.PCname %></td>
+    <td><%= cash_flow.basisAmount %></td>
+    <td><%= cash_flow.centage %></td>
+    <td><%= cash_flow.basisAmount %></td>
+    <td><%= cash_flow.caluFrom %></td>
+    <td><%= cash_flow.caluUntil %></td>
+    <td><%= cash_flow.dayNum %></td>
+    <td><%= cash_flow.creditSide %></td>
+
+  </tr>
+
+  </tbody>
+  <%end%>
+  <%= link_to "合同视图", contract_path(@contract),:class => "btn btn-primary"%>
+</table>

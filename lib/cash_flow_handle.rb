@@ -34,6 +34,8 @@ module ContractCashFlowControl
     end
     def cf_after_repay(contract,repayment)
       # TODO 还款后产生现金流。已完成设计
+      if first_cf_0(contract.id)
+
       caclu_date = repayment.execute_time.end_of_month
       amount = repayment.cash_amount
       contract_id = contract.id
@@ -43,12 +45,13 @@ module ContractCashFlowControl
           first_0_cf = first_cf_0(contract_id)
           cash_flow = contract.cash_flows.build
           flow_type = first_0_cf.flowType.to_i + 3100
-          cf_init(contract,cash_flow,flow_type)
+          cf_init(cash_flow,contract,flow_type)
           cash_flow.amount = repayment.cash_amount
           cash_flow.calcuDate = caclu_date
           cash_flow.caluFrom = first_0_cf.caluFrom
           cash_flow.caluUntil = first_0_cf.caluUntil
           cash_flow.status = 1
+          cash_flow.creditSide = false
           cash_flow.save
           #open_item修改
           contract.open_item -= repayment.cash_amount
@@ -60,12 +63,13 @@ module ContractCashFlowControl
           first_0_cf = first_cf_0(contract_id)
           cash_flow = contract.cash_flows.build
           flow_type = first_0_cf.flowType.to_i + 3100
-          cf_init(contract,cash_flow,flow_type)
+          cf_init(cash_flow,contract,flow_type)
           cash_flow.amount = contract.open_item
           cash_flow.calcuDate = caclu_date
           cash_flow.caluFrom = first_0_cf.caluFrom
           cash_flow.caluUntil = first_0_cf.caluUntil
           cash_flow.status = 1
+          cash_flow.creditSide = false
           cash_flow.save!
           #一个cash_flow完成
           first_0_cf.status = 1
@@ -75,9 +79,14 @@ module ContractCashFlowControl
           #将open_item归零
           contract.open_item = 0
           contract.save!
-          amount = amount - contract.open_item
+        end
+        if CashFlow.where(status: 0, contract_id:contract_id)
+        else
+          contract.status = 7
+          contract.update_attributes(:status => 7)
         end
       end
+
       if contract.open_item.to_i == 0
         first_0_cf = first_cf_0(contract_id)
         until amount < first_0_cf.amount
@@ -90,6 +99,7 @@ module ContractCashFlowControl
           cash_flow.caluFrom = first_0_cf.caluFrom
           cash_flow.caluUntil = first_0_cf.caluUntil
           cash_flow.status = 1
+          cash_flow.creditSide = false
           cash_flow.save!
           amount -= first_0_cf.amount
           #一个cash_flow完成
@@ -97,7 +107,7 @@ module ContractCashFlowControl
           first_0_cf.save!
         end
 
-        if amount > 0 && amount < first_cf_0(contract_id)
+        if amount > 0 && amount < first_cf_0(contract_id).amount
           #creat_cf
           cash_flow = contract.cash_flows.build
           first_0_cf = first_cf_0(contract_id)
@@ -108,6 +118,7 @@ module ContractCashFlowControl
           cash_flow.caluFrom = first_0_cf.caluFrom
           cash_flow.caluUntil = first_0_cf.caluUntil
           cash_flow.status = 1
+          cash_flow.creditSide = false
           cash_flow.save!
           #修改contract.open_item
           contract.open_item = first_0_cf.amount - amount
@@ -115,7 +126,10 @@ module ContractCashFlowControl
         end
       end
     end
+    else
 
+
+    end
     # 1 首先分辨repaymentType，然后分配不同CF函数……^_^
     #2 根据repeymentType书写CF初始化函数
     #3 每次还款，只需填入合同号（找到相应CF用），金额，日期（自动计算罚息，填入CF）
@@ -213,7 +227,6 @@ module ContractCashFlowControl
           #对calu_date加一个月
           calu_date = calu_date.next_month
           @cash_flow1.save!
-
         end
 
     #  else
@@ -239,14 +252,14 @@ module ContractCashFlowControl
        cash_flow.amount = contract.amount
        cash_flow.calcuDate = contract.condition.fixedFrom
        cash_flow.flowType = flow_type
-       cash_flow.flowName = FlowType.find_by_flowNum(cash_flow.flowType).flowName
+       cash_flow.flowName = FlowType.find_by_flowNum(flow_type).flowName
        cash_flow.PC = contract.currency
        cash_flow.PCname = Pc.find(contract.currency).name
        cash_flow.status = 1
        cash_flow.creditSide = true
      else
        cash_flow.flowType = flow_type
-       cash_flow.flowName = FlowType.find_by_flowNum(cash_flow.flowType).flowName
+       cash_flow.flowName = FlowType.find_by_flowNum(flow_type).flowName
        cash_flow.PC = contract.currency
        cash_flow.PCname = Pc.find(contract.currency).name
        cash_flow.basisAmount = contract.amount
@@ -279,10 +292,7 @@ module ContractCashFlowControl
       (d2 - d1).to_i
     end
     def first_cf_0(contract_id)
-   cash_flow = CashFlow.find_by_sql "SELECT * FROM cash_flows WHERE cash_flows.status = 0
-                                              AND cash_flows.contract_id = #{contract_id}
-                                              LIMIT 1"
-   cash_flow.first
+      CashFlow.where(status: 0, contract_id:contract_id).first
     end
   end
 
